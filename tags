@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+M	dreamartist.cc	/^int M,N;$/;"	v
+N	dreamartist.cc	/^int M,N;$/;"	v
+a	dreamartist.cc	/^	int a, b;\/\/z方向的评估$/;"	m	struct:elimate	file:
+b	dreamartist.cc	/^	int a, b;\/\/z方向的评估$/;"	m	struct:elimate	file:
+calc	dreamartist.cc	/^int calc(){$/;"	f
+elimate	dreamartist.cc	/^	elimate(){a=0,b=0;}$/;"	f	struct:elimate
+elimate	dreamartist.cc	/^	elimate(const elimate &t){a=t.a;b=t.b;}$/;"	f	struct:elimate
+elimate	dreamartist.cc	/^	elimate(int _a,int _b){a=_a,b=_b;}$/;"	f	struct:elimate
+elimate	dreamartist.cc	/^struct elimate{$/;"	s	file:
+ex	dreamartist.cc	/^}ex[maxM],ey[maxM],ez[maxM];\/\/限定x,y$/;"	v	typeref:struct:elimate
+ey	dreamartist.cc	/^}ex[maxM],ey[maxM],ez[maxM];\/\/限定x,y$/;"	v	typeref:struct:elimate
+ez	dreamartist.cc	/^}ex[maxM],ey[maxM],ez[maxM];\/\/限定x,y$/;"	v	typeref:struct:elimate
+find	dreamartist.cc	/^bool find(int x,int y,int z){$/;"	f
+find	dreamartist.cc	/^int find(elimate *arr,int l,int r,elimate &t){$/;"	f
+init	dreamartist.cc	/^int init(){$/;"	f
+ix	dreamartist.cc	/^int ix,iy,iz;\/\/记录数组元素个数$/;"	v
+iy	dreamartist.cc	/^int ix,iy,iz;\/\/记录数组元素个数$/;"	v
+iz	dreamartist.cc	/^int ix,iy,iz;\/\/记录数组元素个数$/;"	v
+main	dreamartist.cc	/^int main(){$/;"	f
+maxM	dreamartist.cc	/^const int maxM=1000;$/;"	v
+maxN	dreamartist.cc	/^const int maxN=1000;$/;"	v
+operator <	dreamartist.cc	/^	friend bool operator< (const elimate &s,const elimate &t){$/;"	f	struct:elimate
+operator ==	dreamartist.cc	/^	friend bool operator ==(const elimate &s,const elimate &t){$/;"	f	struct:elimate
+px	dreamartist.cc	/^int px,py,pz;$/;"	v
+py	dreamartist.cc	/^int px,py,pz;$/;"	v
+pz	dreamartist.cc	/^int px,py,pz;$/;"	v

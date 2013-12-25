@@ -1,0 +1,13 @@
+文件说明：
+一共两部分：
+1爬虫（文件夹包括：网络爬虫，SharpICTCLAS分词系统 1.0)
+必须设置它为启动项目才能启动
+爬虫的下载目录：网络爬虫\bin\debug\down，
+生成索引文件：index.txt，在相应项目debug下面
+
+2searchEngine(文件夹：外排序，searchEngines)
+临时生成网页快照：\searchEngines\bin\Debug\pic\temp.html
+searchEngine项目的网页：\searchEngines\bin\Debug\down\...   用来搜索
+索引文件:index.txt，index2.txt,index3.txt都在debug下面
+
+所有txt都必须是unicode！！！

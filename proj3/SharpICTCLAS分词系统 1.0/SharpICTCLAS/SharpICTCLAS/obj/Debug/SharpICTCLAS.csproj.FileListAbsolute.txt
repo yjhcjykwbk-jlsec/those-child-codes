@@ -1,0 +1,10 @@
+F:\我的文档\poj3\SharpICTCLAS分词系统 1.0\bin\SharpICTCLAS.dll
+F:\我的文档\poj3\SharpICTCLAS分词系统 1.0\bin\SharpICTCLAS.pdb
+F:\我的文档\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\obj\Debug\ResolveAssemblyReference.cache
+F:\我的文档\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\obj\Debug\SharpICTCLAS.dll
+F:\我的文档\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\obj\Debug\SharpICTCLAS.pdb
+C:\Documents and Settings\Administrator\My Documents\poj3\SharpICTCLAS分词系统 1.0\bin\SharpICTCLAS.dll
+C:\Documents and Settings\Administrator\My Documents\poj3\SharpICTCLAS分词系统 1.0\bin\SharpICTCLAS.pdb
+C:\Documents and Settings\Administrator\My Documents\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\obj\Debug\SharpICTCLAS.dll
+C:\Documents and Settings\Administrator\My Documents\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\obj\Debug\SharpICTCLAS.pdb

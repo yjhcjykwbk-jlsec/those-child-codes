@@ -1,0 +1,15 @@
+q['d']=12222
+q['s']=323
+after erased,q['s']=0
+after travel:
+s:0
+d:12222
+after travel:
+asd:f
+dsd:s
+iou:w
+zhsd:u
+after travel:
+23 fgh :f
+12 dsd :s
+3 ouh :r

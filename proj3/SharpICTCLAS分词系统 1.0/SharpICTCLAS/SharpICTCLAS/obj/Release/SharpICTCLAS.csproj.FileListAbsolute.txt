@@ -1,0 +1,10 @@
+D:\Users\xzg\Documents\Tencent Files\785985160\FileRecv\SharpICTCLAS分词系统_1.0\SharpICTCLAS分词系统 1.0\bin\SharpICTCLAS.dll
+D:\Users\xzg\Documents\Tencent Files\785985160\FileRecv\SharpICTCLAS分词系统_1.0\SharpICTCLAS分词系统 1.0\bin\SharpICTCLAS.pdb
+D:\Users\xzg\Documents\Tencent Files\785985160\FileRecv\SharpICTCLAS分词系统_1.0\SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\obj\Release\ResolveAssemblyReference.cache
+D:\Users\xzg\Documents\Tencent Files\785985160\FileRecv\SharpICTCLAS分词系统_1.0\SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\obj\Release\SharpICTCLAS.dll
+D:\Users\xzg\Documents\Tencent Files\785985160\FileRecv\SharpICTCLAS分词系统_1.0\SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\obj\Release\SharpICTCLAS.pdb
+C:\Documents and Settings\Administrator\桌面\poj3\SharpICTCLAS分词系统 1.0\bin\SharpICTCLAS.dll
+C:\Documents and Settings\Administrator\桌面\poj3\SharpICTCLAS分词系统 1.0\bin\SharpICTCLAS.pdb
+C:\Documents and Settings\Administrator\桌面\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\obj\Release\SharpICTCLAS.dll
+C:\Documents and Settings\Administrator\桌面\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\obj\Release\SharpICTCLAS.pdb

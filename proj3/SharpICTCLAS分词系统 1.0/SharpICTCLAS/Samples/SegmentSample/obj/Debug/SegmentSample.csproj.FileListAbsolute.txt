@@ -1,0 +1,15 @@
+F:\我的文档\poj3\SharpICTCLAS分词系统 1.0\bin\SegmentSample.exe
+F:\我的文档\poj3\SharpICTCLAS分词系统 1.0\bin\SegmentSample.pdb
+F:\我的文档\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\SegmentSample\obj\Debug\ResolveAssemblyReference.cache
+F:\我的文档\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\SegmentSample\obj\Debug\SegmentSample.exe
+F:\我的文档\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\SegmentSample\obj\Debug\SegmentSample.pdb
+C:\Documents and Settings\Administrator\My Documents\poj3\SharpICTCLAS分词系统 1.0\bin\SegmentSample.exe
+C:\Documents and Settings\Administrator\My Documents\poj3\SharpICTCLAS分词系统 1.0\bin\SegmentSample.pdb
+C:\Documents and Settings\Administrator\My Documents\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\SegmentSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\SegmentSample\obj\Debug\SegmentSample.exe
+C:\Documents and Settings\Administrator\My Documents\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\SegmentSample\obj\Debug\SegmentSample.pdb
+C:\Documents and Settings\Administrator\桌面\poj3\SharpICTCLAS分词系统 1.0\bin\SegmentSample.exe
+C:\Documents and Settings\Administrator\桌面\poj3\SharpICTCLAS分词系统 1.0\bin\SegmentSample.pdb
+C:\Documents and Settings\Administrator\桌面\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\SegmentSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\SegmentSample\obj\Debug\SegmentSample.exe
+C:\Documents and Settings\Administrator\桌面\poj3\SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\SegmentSample\obj\Debug\SegmentSample.pdb

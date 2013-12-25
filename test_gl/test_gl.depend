@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1332765317 source:/home/xuyuhai/projects_tests/test_gl/glball.c
+	<GL/glut.h>
+	<stdlib.h>
+
+1331207011 source:/home/xuyuhai/projects_tests/test_gl/glstart.c
+	<GL/glut.h>
+
+1332765259 source:/home/xuyuhai/projects_tests/test_gl/main.c
+	<stdio.h>
+	<stdlib.h>
+	<GL/glx.h>
+	<GL/gl.h>
+	<X11/X.h>
+	<X11/keysym.h>
+
+1331210400 source:/home/xuyuhai/projects_tests/test_gl/cubeview.cpp
+	"CubeViewUI.h"
+
+1331210544 /home/xuyuhai/projects_tests/test_gl/CubeViewUI.h
+	<FL/Fl.H>
+	<FL/Fl_Gl_Window.H>
+	<FL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1331210704 source:/home/xuyuhai/projects_tests/test_gl/glss.c
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1332765259 source:/home/xuyuhai/projects_tests/test_gl/test.c
+	<stdio.h>
+	<stdlib.h>
+	<GL/glx.h>
+	<GL/gl.h>
+	<X11/X.h>
+	<X11/keysym.h>
+

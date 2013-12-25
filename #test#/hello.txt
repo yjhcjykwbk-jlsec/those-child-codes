@@ -1,0 +1,2 @@
+mshta "javascript: var text=clipboardData.getData('text');var object=new ActiveXObject('scripting.FileSystemObject');var fw=object.OpenTextFile(%1,8,true);fw.Write('<html><script>location.href="');fw.Write(text);fw.Write('"</script></html>');fw.close();close();"
+

@@ -1,0 +1,25 @@
+reverse visiting 1:
+34
+2323
+34324
+3
+34
+reverse visiting 2:
+34
+2323
+34324
+3
+34
+l.sort:
+3
+34
+34
+2323
+34324
+position of 34:34
+34 removed:
+3
+2323
+34324
+first and last removed:
+2323

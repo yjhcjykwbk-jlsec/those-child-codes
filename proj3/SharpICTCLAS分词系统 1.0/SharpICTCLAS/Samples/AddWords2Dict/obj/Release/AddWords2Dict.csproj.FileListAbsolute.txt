@@ -1,0 +1,5 @@
+D:\Users\xzg\Documents\Tencent Files\785985160\FileRecv\SharpICTCLAS分词系统_1.0\SharpICTCLAS分词系统 1.0\bin\AddWords2Dict.exe
+D:\Users\xzg\Documents\Tencent Files\785985160\FileRecv\SharpICTCLAS分词系统_1.0\SharpICTCLAS分词系统 1.0\bin\AddWords2Dict.pdb
+D:\Users\xzg\Documents\Tencent Files\785985160\FileRecv\SharpICTCLAS分词系统_1.0\SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\AddWords2Dict\obj\Release\ResolveAssemblyReference.cache
+D:\Users\xzg\Documents\Tencent Files\785985160\FileRecv\SharpICTCLAS分词系统_1.0\SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\AddWords2Dict\obj\Release\AddWords2Dict.exe
+D:\Users\xzg\Documents\Tencent Files\785985160\FileRecv\SharpICTCLAS分词系统_1.0\SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\AddWords2Dict\obj\Release\AddWords2Dict.pdb

@@ -1,0 +1,24 @@
+C:\Documents and Settings\Administrator\My Documents\poj3\searchEngines\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\poj3\searchEngines\obj\Debug\searchEngines.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\poj3\searchEngines\obj\Debug\searchEngines.searchEngines.resources
+C:\Documents and Settings\Administrator\My Documents\poj3\searchEngines\obj\Debug\searchEngines.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\poj3\searchEngines\bin\Debug\searchEngines.exe
+C:\Documents and Settings\Administrator\My Documents\poj3\searchEngines\bin\Debug\searchEngines.pdb
+C:\Documents and Settings\Administrator\My Documents\poj3\searchEngines\obj\Debug\searchEngines.exe
+C:\Documents and Settings\Administrator\My Documents\poj3\searchEngines\obj\Debug\searchEngines.pdb
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\obj\Debug\searchEngines.exe
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\obj\Debug\searchEngines.pdb
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\bin\Debug\searchEngines.exe
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\bin\Debug\searchEngines.pdb
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\obj\Debug\searchEngines.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\obj\Debug\searchEngines.searchEngines.resources
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\obj\Debug\searchEngines.csproj.GenerateResource.Cache
+F:\个人程序\poj3\searchEngines\obj\Debug\searchEngines.exe
+F:\个人程序\poj3\searchEngines\obj\Debug\searchEngines.pdb
+F:\个人程序\poj3\searchEngines\obj\Debug\ResolveAssemblyReference.cache
+F:\个人程序\poj3\searchEngines\obj\Debug\searchEngines.Properties.Resources.resources
+F:\个人程序\poj3\searchEngines\obj\Debug\searchEngines.searchEngines.resources
+F:\个人程序\poj3\searchEngines\obj\Debug\searchEngines.csproj.GenerateResource.Cache
+F:\个人程序\poj3\searchEngines\bin\Debug\searchEngines.exe
+F:\个人程序\poj3\searchEngines\bin\Debug\searchEngines.pdb

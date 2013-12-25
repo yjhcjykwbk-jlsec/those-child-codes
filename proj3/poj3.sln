@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "爬虫", "网络爬虫\爬虫.csproj", "{9949BFD6-57D3-4A84-80E7-62DA51551D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpICTCLAS", "SharpICTCLAS分词系统 1.0\SharpICTCLAS\SharpICTCLAS\SharpICTCLAS.csproj", "{E27DB382-5785-40F9-B671-197FD5B77569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegmentSample", "SharpICTCLAS分词系统 1.0\SharpICTCLAS\Samples\SegmentSample\SegmentSample.csproj", "{81C0D36C-6A1E-4A56-B030-135E68D688F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "outSort", "外排序\outSort.csproj", "{F9DF2AAF-EF37-4F0B-8FB5-070F692FF7BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "searchEngines", "searchEngines\searchEngines.csproj", "{01C271B3-4C5A-4FF3-A5DD-8ECE799A6DDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9949BFD6-57D3-4A84-80E7-62DA51551D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9949BFD6-57D3-4A84-80E7-62DA51551D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9949BFD6-57D3-4A84-80E7-62DA51551D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9949BFD6-57D3-4A84-80E7-62DA51551D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27DB382-5785-40F9-B671-197FD5B77569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27DB382-5785-40F9-B671-197FD5B77569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27DB382-5785-40F9-B671-197FD5B77569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27DB382-5785-40F9-B671-197FD5B77569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C0D36C-6A1E-4A56-B030-135E68D688F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C0D36C-6A1E-4A56-B030-135E68D688F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C0D36C-6A1E-4A56-B030-135E68D688F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C0D36C-6A1E-4A56-B030-135E68D688F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9DF2AAF-EF37-4F0B-8FB5-070F692FF7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DF2AAF-EF37-4F0B-8FB5-070F692FF7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DF2AAF-EF37-4F0B-8FB5-070F692FF7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DF2AAF-EF37-4F0B-8FB5-070F692FF7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C271B3-4C5A-4FF3-A5DD-8ECE799A6DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C271B3-4C5A-4FF3-A5DD-8ECE799A6DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C271B3-4C5A-4FF3-A5DD-8ECE799A6DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C271B3-4C5A-4FF3-A5DD-8ECE799A6DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

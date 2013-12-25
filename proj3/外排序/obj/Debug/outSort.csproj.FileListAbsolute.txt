@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\My Documents\poj3\外排序\bin\Debug\outSort.dll
+C:\Documents and Settings\Administrator\My Documents\poj3\外排序\bin\Debug\outSort.pdb
+C:\Documents and Settings\Administrator\My Documents\poj3\外排序\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\poj3\外排序\obj\Debug\outSort.dll
+C:\Documents and Settings\Administrator\My Documents\poj3\外排序\obj\Debug\outSort.pdb

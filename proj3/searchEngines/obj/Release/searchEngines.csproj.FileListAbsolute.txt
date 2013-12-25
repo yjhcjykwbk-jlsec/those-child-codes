@@ -1,0 +1,8 @@
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\bin\Release\searchEngines.exe
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\bin\Release\searchEngines.pdb
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\obj\Release\searchEngines.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\obj\Release\searchEngines.searchEngines.resources
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\obj\Release\searchEngines.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\obj\Release\searchEngines.exe
+C:\Documents and Settings\Administrator\桌面\poj3\searchEngines\obj\Release\searchEngines.pdb

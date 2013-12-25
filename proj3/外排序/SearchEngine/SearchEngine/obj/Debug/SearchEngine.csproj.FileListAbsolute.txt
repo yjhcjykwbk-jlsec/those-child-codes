@@ -1,0 +1,10 @@
+C:\Users\chenxin\学习\专业课\数算实习\作业\proj 3\SearchEngine\SearchEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\chenxin\学习\专业课\数算实习\作业\proj 3\SearchEngine\SearchEngine\obj\Debug\SearchEngine.Form1.resources
+C:\Users\chenxin\学习\专业课\数算实习\作业\proj 3\SearchEngine\SearchEngine\obj\Debug\SearchEngine.Properties.Resources.resources
+C:\Users\chenxin\学习\专业课\数算实习\作业\proj 3\SearchEngine\SearchEngine\obj\Debug\SearchEngine.csproj.GenerateResource.Cache
+C:\Users\chenxin\学习\专业课\数算实习\作业\proj 3\SearchEngine\SearchEngine\bin\Debug\SearchEngine.exe
+C:\Users\chenxin\学习\专业课\数算实习\作业\proj 3\SearchEngine\SearchEngine\bin\Debug\SearchEngine.pdb
+C:\Users\chenxin\学习\专业课\数算实习\作业\proj 3\SearchEngine\SearchEngine\obj\Debug\SearchEngine.exe
+C:\Users\chenxin\学习\专业课\数算实习\作业\proj 3\SearchEngine\SearchEngine\obj\Debug\SearchEngine.pdb
+C:\Documents and Settings\Administrator\My Documents\poj3\外排序\SearchEngine\SearchEngine\obj\Debug\SearchEngine.exe
+C:\Documents and Settings\Administrator\My Documents\poj3\外排序\SearchEngine\SearchEngine\obj\Debug\SearchEngine.pdb
