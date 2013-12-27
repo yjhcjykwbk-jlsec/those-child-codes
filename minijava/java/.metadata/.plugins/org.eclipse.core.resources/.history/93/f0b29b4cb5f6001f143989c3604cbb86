@@ -1,0 +1,16 @@
+import visitor.*;
+import java.io.*;
+public class run {
+	static public void main(String []argu)
+	{
+		FileInputStream file=new FileInputStream("input");
+		new SpigletParser(System.in);
+	try
+	{
+		syntaxtree.Goal goal=SpigletParser.Goal();
+		GJDepthFirst visitor=new GJDepthFirst ();
+		visitor.visit(goal, goal);
+	}
+	catch(Exception ee){}
+	}
+}

@@ -1,0 +1,33 @@
+
+public class idet {
+	static public void main(String []argu)
+	{
+		iexten a=new iexten();
+		System.out.print(a.g());
+		System.out.print(a.ag());
+	}
+}
+
+class father
+{
+	int a;
+	public int f()
+	{
+		a=2;
+		return a;
+	}
+}
+ class iexten extends father
+{
+	int a;
+	public int g()
+	{
+		f();
+		father thiss=this;
+		return a;
+	}
+	public int ag()
+	{
+		return this.a;
+	}
+}

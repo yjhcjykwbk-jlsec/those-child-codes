@@ -1,0 +1,43 @@
+import java.io.*;
+import visitor.*;
+import java.util.*;
+public class main {
+     static public void main(String args[]){
+    	 syntaxtree.Goal goal;
+    	 types.TypeTable table;
+    	 CreateTableVisit tablevisitor;
+    	 TypeCheckVisit   checkvisitor;
+    	 PigletVisit      pigletvisitor;
+    	 MiniJavaParser ap;
+    	
+    	FileReader file;int i=10;
+    	while(i<100){
+    	 try
+    	 {
+    	 //System.out.println("case");
+    	 file=new FileReader("./test/"+i+".java");
+    	 ap=new MiniJavaParser(file);
+    	 goal=MiniJavaParser.Goal();
+    	 System.out.println("create");
+    	 table=new types.TypeTable();
+    	 tablevisitor=new CreateTableVisit(table);
+    	 tablevisitor.visit(goal);
+    	 System.out.println("check");
+    	 checkvisitor=new TypeCheckVisit(table);
+    	 Object a=new Object();
+    	 checkvisitor.visit(goal, a);
+    	 System.out.println("piglet");
+    	 pigletvisitor=new PigletVisit(table);
+    	 pigletvisitor.visit(goal);
+    	 }
+    	 catch(ParseException e)
+    	 {
+    		 System.out.println(e.getMessage());
+    	 }
+    	 catch(Exception eee){System.out.println("error");}
+    	 System.out.println("next");
+    	 i++;
+    	 }
+    	 
+     }
+}

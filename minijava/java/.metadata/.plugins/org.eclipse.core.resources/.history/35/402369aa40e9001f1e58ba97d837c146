@@ -1,0 +1,57 @@
+/*
+ * Sample.java
+ * Class description and usage here.
+ * Created on 15 October 2003
+*/
+
+/**
+ * @author  Julia
+ * @version 1.2
+ */
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
+import java.util.Scanner;
+public class sample extends JFrame
+       implements ActionListener{
+
+  private JButton jButton1;  
+  private JLabel jLabel1;
+  private String name;
+  private Scanner input;
+
+  /** Creates new object ChooseFile */
+  public sample() {
+    initComponents();
+    this.setVisible(true);//setVisible(1);
+    name = "group 138";
+    input = new Scanner(System.in);
+  }
+  
+
+  
+  public static void main(String args[]) {
+    new sample().setVisible(true);
+  }
+  
+  private void initComponents() {
+    jButton1 = new JButton();
+    jLabel1= new JLabel();
+    addWindowListener(new WindowAdapter() {public void windowClosing(WindowEvent e) {System.exit(0);}});
+    setLayout(new GridLayout(2, 1));
+    jButton1.setText("Click");
+    jButton1.addActionListener(this);
+    jLabel1.setText("Group 138");
+    add(jButton1);
+    add(jLabel1);
+    pack();
+  };
+  
+  public void actionPerformed(ActionEvent evt) {
+    System.out.print("Talk to me " +name+ " : ");
+    jLabel1.setText(input.nextLine());
+  }
+
+
+}

@@ -1,0 +1,13 @@
+
+public class run {
+	static public void main(String []argu)
+	{
+	new SpigletParser(System.in);
+	try
+	{
+		syntaxtree.Goal goal=SpigletParser.Goal();
+	}
+	catch(Exception ee){}
+	}
+
+}

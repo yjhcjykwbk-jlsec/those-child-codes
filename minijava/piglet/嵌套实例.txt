@@ -1,0 +1,1433 @@
+
+main
+print 
+ call
+  begin
+   mov temp 2 
+    begin
+     mov temp 6 hallocate 8
+     mov temp 7 hallocate 4
+     hstore temp 7 0 BT_Start
+     hstore temp 6 0 temp 7
+     mov temp 5 temp 6
+     hstore temp 6 4 0 
+     return temp 5
+    end
+   cjump lt 0 temp 2 noerror1
+   error
+   noerror1 noop
+   hload temp 3 temp 2 0
+   hload temp 4 temp 3 0
+   return temp 4
+  end
+  ( temp 2 
+   ) 
+end
+
+
+BT_Start [1]
+begin
+ mov temp 1 0
+ mov temp 2 0
+ mov temp 3 0
+ mov temp 1 
+  begin
+   mov temp 6 hallocate 32
+   mov temp 7 hallocate 80
+   hstore temp 7 0 Tree_Init
+   hstore temp 7 4 Tree_SetRight
+   hstore temp 7 8 Tree_SetLeft
+   hstore temp 7 12 Tree_GetRight
+   hstore temp 7 16 Tree_GetLeft
+   hstore temp 7 20 Tree_GetKey
+   hstore temp 7 24 Tree_SetKey
+   hstore temp 7 28 Tree_GetHas_Right
+   hstore temp 7 32 Tree_GetHas_Left
+   hstore temp 7 36 Tree_SetHas_Left
+   hstore temp 7 40 Tree_SetHas_Right
+   hstore temp 7 44 Tree_Compare
+   hstore temp 7 48 Tree_Insert
+   hstore temp 7 52 Tree_Delete
+   hstore temp 7 56 Tree_Remove
+   hstore temp 7 60 Tree_RemoveRight
+   hstore temp 7 64 Tree_RemoveLeft
+   hstore temp 7 68 Tree_Search
+   hstore temp 7 72 Tree_Print
+   hstore temp 7 76 Tree_RecPrint
+   hstore temp 6 0 temp 7
+   hstore temp 6 4 0
+   hstore temp 6 8 0
+   hstore temp 6 12 0
+   hstore temp 6 16 0
+   hstore temp 6 20 0
+   hstore temp 6 24 0
+   mov temp 5 temp 6
+   hstore temp 6 28 0 
+   return temp 5
+  end
+ mov temp 2 
+  call
+   begin
+    mov temp 9  temp 1
+    cjump lt 0 temp 9 noerror1
+    error
+    noerror1 noop
+    hload temp 10 temp 9 0
+    hload temp 11 temp 10 0
+    return temp 11
+   end
+   ( temp 9 16 
+    ) 
+ mov temp 2 
+  call
+   begin
+    mov temp 13  temp 1
+    cjump lt 0 temp 13 noerror2
+    error
+    noerror2 noop
+    hload temp 14 temp 13 0
+    hload temp 15 temp 14 72
+    return temp 15
+   end
+   ( temp 13 
+    ) 
+ print 100000000
+ mov temp 2 
+  call
+   begin
+    mov temp 17  temp 1
+    cjump lt 0 temp 17 noerror3
+    error
+    noerror3 noop
+    hload temp 18 temp 17 0
+    hload temp 19 temp 18 48
+    return temp 19
+   end
+   ( temp 17 8 
+    ) 
+ mov temp 2 
+  call
+   begin
+    mov temp 21  temp 1
+    cjump lt 0 temp 21 noerror4
+    error
+    noerror4 noop
+    hload temp 22 temp 21 0
+    hload temp 23 temp 22 72
+    return temp 23
+   end
+   ( temp 21 
+    ) 
+ mov temp 2 
+  call
+   begin
+    mov temp 25  temp 1
+    cjump lt 0 temp 25 noerror5
+    error
+    noerror5 noop
+    hload temp 26 temp 25 0
+    hload temp 27 temp 26 48
+    return temp 27
+   end
+   ( temp 25 24 
+    ) 
+ mov temp 2 
+  call
+   begin
+    mov temp 29  temp 1
+    cjump lt 0 temp 29 noerror6
+    error
+    noerror6 noop
+    hload temp 30 temp 29 0
+    hload temp 31 temp 30 48
+    return temp 31
+   end
+   ( temp 29 4 
+    ) 
+ mov temp 2 
+  call
+   begin
+    mov temp 33  temp 1
+    cjump lt 0 temp 33 noerror7
+    error
+    noerror7 noop
+    hload temp 34 temp 33 0
+    hload temp 35 temp 34 48
+    return temp 35
+   end
+   ( temp 33 12 
+    ) 
+ mov temp 2 
+  call
+   begin
+    mov temp 37  temp 1
+    cjump lt 0 temp 37 noerror8
+    error
+    noerror8 noop
+    hload temp 38 temp 37 0
+    hload temp 39 temp 38 48
+    return temp 39
+   end
+   ( temp 37 20 
+    ) 
+ mov temp 2 
+  call
+   begin
+    mov temp 41  temp 1
+    cjump lt 0 temp 41 noerror9
+    error
+    noerror9 noop
+    hload temp 42 temp 41 0
+    hload temp 43 temp 42 48
+    return temp 43
+   end
+   ( temp 41 28 
+    ) 
+ mov temp 2 
+  call
+   begin
+    mov temp 45  temp 1
+    cjump lt 0 temp 45 noerror10
+    error
+    noerror10 noop
+    hload temp 46 temp 45 0
+    hload temp 47 temp 46 48
+    return temp 47
+   end
+   ( temp 45 14 
+    ) 
+ mov temp 2 
+  call
+   begin
+    mov temp 49  temp 1
+    cjump lt 0 temp 49 noerror11
+    error
+    noerror11 noop
+    hload temp 50 temp 49 0
+    hload temp 51 temp 50 72
+    return temp 51
+   end
+   ( temp 49 
+    ) 
+ print 
+  call
+   begin
+    mov temp 53  temp 1
+    cjump lt 0 temp 53 noerror12
+    error
+    noerror12 noop
+    hload temp 54 temp 53 0
+    hload temp 55 temp 54 68
+    return temp 55
+   end
+   ( temp 53 24 
+    ) 
+ print 
+  call
+   begin
+    mov temp 57  temp 1
+    cjump lt 0 temp 57 noerror13
+    error
+    noerror13 noop
+    hload temp 58 temp 57 0
+    hload temp 59 temp 58 68
+    return temp 59
+   end
+   ( temp 57 12 
+    ) 
+ print 
+  call
+   begin
+    mov temp 61  temp 1
+    cjump lt 0 temp 61 noerror14
+    error
+    noerror14 noop
+    hload temp 62 temp 61 0
+    hload temp 63 temp 62 68
+    return temp 63
+   end
+   ( temp 61 16 
+    ) 
+ print 
+  call
+   begin
+    mov temp 65  temp 1
+    cjump lt 0 temp 65 noerror15
+    error
+    noerror15 noop
+    hload temp 66 temp 65 0
+    hload temp 67 temp 66 68
+    return temp 67
+   end
+   ( temp 65 50 
+    ) 
+ print 
+  call
+   begin
+    mov temp 69  temp 1
+    cjump lt 0 temp 69 noerror16
+    error
+    noerror16 noop
+    hload temp 70 temp 69 0
+    hload temp 71 temp 70 68
+    return temp 71
+   end
+   ( temp 69 12 
+    ) 
+ mov temp 2 
+  call
+   begin
+    mov temp 73  temp 1
+    cjump lt 0 temp 73 noerror17
+    error
+    noerror17 noop
+    hload temp 74 temp 73 0
+    hload temp 75 temp 74 52
+    return temp 75
+   end
+   ( temp 73 12 
+    ) 
+ mov temp 2 
+  call
+   begin
+    mov temp 77  temp 1
+    cjump lt 0 temp 77 noerror18
+    error
+    noerror18 noop
+    hload temp 78 temp 77 0
+    hload temp 79 temp 78 72
+    return temp 79
+   end
+   ( temp 77 
+    ) 
+ print 
+  call
+   begin
+    mov temp 81  temp 1
+    cjump lt 0 temp 81 noerror19
+    error
+    noerror19 noop
+    hload temp 82 temp 81 0
+    hload temp 83 temp 82 68
+    return temp 83
+   end
+   ( temp 81 12 
+    ) 
+ return 0
+end
+
+
+Tree_Init [2]
+begin
+ hstore temp 0 12  temp 1
+ hstore temp 0 16 0
+ hstore temp 0 20 0
+ return 1
+end
+
+Tree_SetRight [2]
+begin
+ hstore temp 0 8  temp 1
+ return 1
+end
+
+Tree_SetLeft [2]
+begin
+ hstore temp 0 4  temp 1
+ return 1
+end
+
+Tree_GetRight [1]
+begin
+ return 
+  begin
+   hload temp 2 temp 0 8
+   return temp 2
+  end
+end
+
+Tree_GetLeft [1]
+begin
+ return 
+  begin
+   hload temp 2 temp 0 4
+   return temp 2
+  end
+end
+
+Tree_GetKey [1]
+begin
+ return 
+  begin
+   hload temp 2 temp 0 12
+   return temp 2
+  end
+end
+
+Tree_SetKey [2]
+begin
+ hstore temp 0 12  temp 1
+ return 1
+end
+
+Tree_GetHas_Right [1]
+begin
+ return 
+  begin
+   hload temp 2 temp 0 20
+   return temp 2
+  end
+end
+
+Tree_GetHas_Left [1]
+begin
+ return 
+  begin
+   hload temp 2 temp 0 16
+   return temp 2
+  end
+end
+
+Tree_SetHas_Left [2]
+begin
+ hstore temp 0 16  temp 1
+ return 1
+end
+
+Tree_SetHas_Right [2]
+begin
+ hstore temp 0 20  temp 1
+ return 1
+end
+
+Tree_Compare [3]
+begin
+ mov temp 3 0
+ mov temp 4 0
+ mov temp 3 0
+ mov temp 4  plus  temp 21
+ mov temp 7  lt  temp 1 temp 2
+ cjump lt  temp 7 1 elselabel3
+ iflabel2 NOOP
+ mov temp 3 0
+ jump label1
+ elselabel3 NOOP
+ mov temp 10 minus 1  lt  temp 1 temp 4
+ cjump lt  temp 10 1 elselabel6
+ iflabel5 NOOP
+ mov temp 3 0
+ jump label4
+ elselabel6 NOOP
+ mov temp 3 1
+ outlabel4 NOOP
+ outlabel1 NOOP
+ return  temp 3
+end
+
+Tree_Insert [2]
+begin
+ mov temp 2 0
+ mov temp 3 0
+ mov temp 4 0
+ mov temp 5 0
+ mov temp 6 0
+ mov temp 2 
+  begin
+   mov temp 9 hallocate 32
+   mov temp 10 hallocate 80
+   hstore temp 10 0 Tree_Init
+   hstore temp 10 4 Tree_SetRight
+   hstore temp 10 8 Tree_SetLeft
+   hstore temp 10 12 Tree_GetRight
+   hstore temp 10 16 Tree_GetLeft
+   hstore temp 10 20 Tree_GetKey
+   hstore temp 10 24 Tree_SetKey
+   hstore temp 10 28 Tree_GetHas_Right
+   hstore temp 10 32 Tree_GetHas_Left
+   hstore temp 10 36 Tree_SetHas_Left
+   hstore temp 10 40 Tree_SetHas_Right
+   hstore temp 10 44 Tree_Compare
+   hstore temp 10 48 Tree_Insert
+   hstore temp 10 52 Tree_Delete
+   hstore temp 10 56 Tree_Remove
+   hstore temp 10 60 Tree_RemoveRight
+   hstore temp 10 64 Tree_RemoveLeft
+   hstore temp 10 68 Tree_Search
+   hstore temp 10 72 Tree_Print
+   hstore temp 10 76 Tree_RecPrint
+   hstore temp 9 0 temp 10
+   hstore temp 9 4 0
+   hstore temp 9 8 0
+   hstore temp 9 12 0
+   hstore temp 9 16 0
+   hstore temp 9 20 0
+   hstore temp 9 24 0
+   mov temp 8 temp 9
+   hstore temp 9 28 0 
+   return temp 8
+  end
+ mov temp 3 
+  call
+   begin
+    mov temp 12  temp 2
+    cjump lt 0 temp 12 noerror1
+    error
+    noerror1 noop
+    hload temp 13 temp 12 0
+    hload temp 14 temp 13 0
+    return temp 14
+   end
+   ( temp 12  temp 1 
+    ) 
+ mov temp 6  temp 0
+ mov temp 4 1
+ whilelabel1 NOOP
+ mov temp 17  temp 4
+ cjump lt  temp 17 0 outlabel2
+ mov temp 5 
+  call
+   begin
+    mov temp 19  temp 6
+    cjump lt 0 temp 19 noerror2
+    error
+    noerror2 noop
+    hload temp 20 temp 19 0
+    hload temp 21 temp 20 20
+    return temp 21
+   end
+   ( temp 19 
+    ) 
+ mov temp 23  lt  temp 1 temp 5
+ cjump lt  temp 23 1 elselabel5
+ iflabel4 NOOP
+ mov temp 26 
+  call
+   begin
+    mov temp 27  temp 6
+    cjump lt 0 temp 27 noerror3
+    error
+    noerror3 noop
+    hload temp 28 temp 27 0
+    hload temp 29 temp 28 32
+    return temp 29
+   end
+   ( temp 27 
+    ) 
+ cjump lt  temp 26 1 elselabel8
+ iflabel7 NOOP
+ mov temp 6 
+  call
+   begin
+    mov temp 31  temp 6
+    cjump lt 0 temp 31 noerror4
+    error
+    noerror4 noop
+    hload temp 32 temp 31 0
+    hload temp 33 temp 32 16
+    return temp 33
+   end
+   ( temp 31 
+    ) 
+ jump label6
+ elselabel8 NOOP
+ mov temp 4 0
+ mov temp 3 
+  call
+   begin
+    mov temp 35  temp 6
+    cjump lt 0 temp 35 noerror5
+    error
+    noerror5 noop
+    hload temp 36 temp 35 0
+    hload temp 37 temp 36 36
+    return temp 37
+   end
+   ( temp 35 1 
+    ) 
+ mov temp 3 
+  call
+   begin
+    mov temp 39  temp 6
+    cjump lt 0 temp 39 noerror6
+    error
+    noerror6 noop
+    hload temp 40 temp 39 0
+    hload temp 41 temp 40 8
+    return temp 41
+   end
+   ( temp 39  temp 2 
+    ) 
+ outlabel6 NOOP
+ jump label3
+ elselabel5 NOOP
+ mov temp 44 
+  call
+   begin
+    mov temp 45  temp 6
+    cjump lt 0 temp 45 noerror7
+    error
+    noerror7 noop
+    hload temp 46 temp 45 0
+    hload temp 47 temp 46 28
+    return temp 47
+   end
+   ( temp 45 
+    ) 
+ cjump lt  temp 44 1 elselabel11
+ iflabel10 NOOP
+ mov temp 6 
+  call
+   begin
+    mov temp 49  temp 6
+    cjump lt 0 temp 49 noerror8
+    error
+    noerror8 noop
+    hload temp 50 temp 49 0
+    hload temp 51 temp 50 12
+    return temp 51
+   end
+   ( temp 49 
+    ) 
+ jump label9
+ elselabel11 NOOP
+ mov temp 4 0
+ mov temp 3 
+  call
+   begin
+    mov temp 53  temp 6
+    cjump lt 0 temp 53 noerror9
+    error
+    noerror9 noop
+    hload temp 54 temp 53 0
+    hload temp 55 temp 54 40
+    return temp 55
+   end
+   ( temp 53 1 
+    ) 
+ mov temp 3 
+  call
+   begin
+    mov temp 57  temp 6
+    cjump lt 0 temp 57 noerror10
+    error
+    noerror10 noop
+    hload temp 58 temp 57 0
+    hload temp 59 temp 58 4
+    return temp 59
+   end
+   ( temp 57  temp 2 
+    ) 
+ outlabel9 NOOP
+ outlabel3 NOOP
+ jump whilelabel1
+ outlabel2 NOOP
+ return 1
+end
+
+Tree_Delete [2]
+begin
+ mov temp 2 0
+ mov temp 3 0
+ mov temp 4 0
+ mov temp 5 0
+ mov temp 6 0
+ mov temp 7 0
+ mov temp 8 0
+ mov temp 2  temp 0
+ mov temp 3  temp 0
+ mov temp 4 1
+ mov temp 5 0
+ mov temp 6 1
+ whilelabel1 NOOP
+ mov temp 10  temp 4
+ cjump lt  temp 10 0 outlabel2
+ mov temp 7 
+  call
+   begin
+    mov temp 12  temp 2
+    cjump lt 0 temp 12 noerror1
+    error
+    noerror1 noop
+    hload temp 13 temp 12 0
+    hload temp 14 temp 13 20
+    return temp 14
+   end
+   ( temp 12 
+    ) 
+ mov temp 16  lt  temp 1 temp 7
+ cjump lt  temp 16 1 elselabel5
+ iflabel4 NOOP
+ mov temp 19 
+  call
+   begin
+    mov temp 20  temp 2
+    cjump lt 0 temp 20 noerror2
+    error
+    noerror2 noop
+    hload temp 21 temp 20 0
+    hload temp 22 temp 21 32
+    return temp 22
+   end
+   ( temp 20 
+    ) 
+ cjump lt  temp 19 1 elselabel8
+ iflabel7 NOOP
+ mov temp 3  temp 2
+ mov temp 2 
+  call
+   begin
+    mov temp 25  temp 2
+    cjump lt 0 temp 25 noerror3
+    error
+    noerror3 noop
+    hload temp 26 temp 25 0
+    hload temp 27 temp 26 16
+    return temp 27
+   end
+   ( temp 25 
+    ) 
+ jump label6
+ elselabel8 NOOP
+ mov temp 4 0
+ outlabel6 NOOP
+ jump label3
+ elselabel5 NOOP
+ mov temp 29  lt  temp 7 temp 1
+ cjump lt  temp 29 1 elselabel11
+ iflabel10 NOOP
+ mov temp 32 
+  call
+   begin
+    mov temp 33  temp 2
+    cjump lt 0 temp 33 noerror4
+    error
+    noerror4 noop
+    hload temp 34 temp 33 0
+    hload temp 35 temp 34 28
+    return temp 35
+   end
+   ( temp 33 
+    ) 
+ cjump lt  temp 32 1 elselabel14
+ iflabel13 NOOP
+ mov temp 3  temp 2
+ mov temp 2 
+  call
+   begin
+    mov temp 38  temp 2
+    cjump lt 0 temp 38 noerror5
+    error
+    noerror5 noop
+    hload temp 39 temp 38 0
+    hload temp 40 temp 39 12
+    return temp 40
+   end
+   ( temp 38 
+    ) 
+ jump label12
+ elselabel14 NOOP
+ mov temp 4 0
+ outlabel12 NOOP
+ jump label9
+ elselabel11 NOOP
+ mov temp 42  temp 6
+ cjump lt  temp 42 1 elselabel17
+ iflabel16 NOOP
+ mov temp 44 
+  begin
+   mov temp 45 minus 1 
+     call
+      begin
+       mov temp 46  temp 2
+       cjump lt 0 temp 46 noerror6
+       error
+       noerror6 noop
+       hload temp 47 temp 46 0
+       hload temp 48 temp 47 28
+       return temp 48
+      end
+      ( temp 46 
+       ) 
+   cjump lt temp 45 1 andlabel21
+   mov temp 45 minus 1 
+     call
+      begin
+       mov temp 50  temp 2
+       cjump lt 0 temp 50 noerror7
+       error
+       noerror7 noop
+       hload temp 51 temp 50 0
+       hload temp 52 temp 51 32
+       return temp 52
+      end
+      ( temp 50 
+       ) 
+   andlabel21 NOOP
+   return temp 45
+  end
+ cjump lt  temp 44 1 elselabel20
+ iflabel19 NOOP
+ mov temp 8 1
+ jump label18
+ elselabel20 NOOP
+ mov temp 8 
+  call
+   begin
+    mov temp 54  temp 0
+    cjump lt 0 temp 54 noerror8
+    error
+    noerror8 noop
+    hload temp 55 temp 54 0
+    hload temp 56 temp 55 56
+    return temp 56
+   end
+   ( temp 54  temp 3  temp 2 
+    ) 
+ outlabel18 NOOP
+ jump label15
+ elselabel17 NOOP
+ mov temp 8 
+  call
+   begin
+    mov temp 59  temp 0
+    cjump lt 0 temp 59 noerror9
+    error
+    noerror9 noop
+    hload temp 60 temp 59 0
+    hload temp 61 temp 60 56
+    return temp 61
+   end
+   ( temp 59  temp 3  temp 2 
+    ) 
+ outlabel15 NOOP
+ mov temp 5 1
+ mov temp 4 0
+ outlabel9 NOOP
+ outlabel3 NOOP
+ mov temp 6 0
+ jump whilelabel1
+ outlabel2 NOOP
+ return  temp 5
+end
+
+Tree_Remove [3]
+begin
+ mov temp 3 0
+ mov temp 4 0
+ mov temp 5 0
+ mov temp 7 
+  call
+   begin
+    mov temp 8  temp 2
+    cjump lt 0 temp 8 noerror1
+    error
+    noerror1 noop
+    hload temp 9 temp 8 0
+    hload temp 10 temp 9 32
+    return temp 10
+   end
+   ( temp 8 
+    ) 
+ cjump lt  temp 7 1 elselabel3
+ iflabel2 NOOP
+ mov temp 3 
+  call
+   begin
+    mov temp 12  temp 0
+    cjump lt 0 temp 12 noerror2
+    error
+    noerror2 noop
+    hload temp 13 temp 12 0
+    hload temp 14 temp 13 64
+    return temp 14
+   end
+   ( temp 12  temp 1  temp 2 
+    ) 
+ jump label1
+ elselabel3 NOOP
+ mov temp 17 
+  call
+   begin
+    mov temp 18  temp 2
+    cjump lt 0 temp 18 noerror3
+    error
+    noerror3 noop
+    hload temp 19 temp 18 0
+    hload temp 20 temp 19 28
+    return temp 20
+   end
+   ( temp 18 
+    ) 
+ cjump lt  temp 17 1 elselabel6
+ iflabel5 NOOP
+ mov temp 3 
+  call
+   begin
+    mov temp 22  temp 0
+    cjump lt 0 temp 22 noerror4
+    error
+    noerror4 noop
+    hload temp 23 temp 22 0
+    hload temp 24 temp 23 60
+    return temp 24
+   end
+   ( temp 22  temp 1  temp 2 
+    ) 
+ jump label4
+ elselabel6 NOOP
+ mov temp 4 
+  call
+   begin
+    mov temp 27  temp 2
+    cjump lt 0 temp 27 noerror5
+    error
+    noerror5 noop
+    hload temp 28 temp 27 0
+    hload temp 29 temp 28 20
+    return temp 29
+   end
+   ( temp 27 
+    ) 
+ mov temp 5 
+  call
+   begin
+    mov temp 31 
+     call
+      begin
+       mov temp 34  temp 1
+       cjump lt 0 temp 34 noerror6
+       error
+       noerror6 noop
+       hload temp 35 temp 34 0
+       hload temp 36 temp 35 16
+       return temp 36
+      end
+      ( temp 34 
+       ) 
+    cjump lt 0 temp 31 noerror7
+    error
+    noerror7 noop
+    hload temp 32 temp 31 0
+    hload temp 33 temp 32 20
+    return temp 33
+   end
+   ( temp 31 
+    ) 
+ mov temp 38 
+  call
+   begin
+    mov temp 39  temp 0
+    cjump lt 0 temp 39 noerror8
+    error
+    noerror8 noop
+    hload temp 40 temp 39 0
+    hload temp 41 temp 40 44
+    return temp 41
+   end
+   ( temp 39  temp 4  temp 5 
+    ) 
+ cjump lt  temp 38 1 elselabel9
+ iflabel8 NOOP
+ mov temp 3 
+  call
+   begin
+    mov temp 44  temp 1
+    cjump lt 0 temp 44 noerror9
+    error
+    noerror9 noop
+    hload temp 45 temp 44 0
+    hload temp 46 temp 45 8
+    return temp 46
+   end
+   ( temp 44 
+   begin
+    hload temp 48 temp 0 24
+    return temp 48
+   end 
+    ) 
+ mov temp 3 
+  call
+   begin
+    mov temp 49  temp 1
+    cjump lt 0 temp 49 noerror10
+    error
+    noerror10 noop
+    hload temp 50 temp 49 0
+    hload temp 51 temp 50 36
+    return temp 51
+   end
+   ( temp 49 0 
+    ) 
+ jump label7
+ elselabel9 NOOP
+ mov temp 3 
+  call
+   begin
+    mov temp 53  temp 1
+    cjump lt 0 temp 53 noerror11
+    error
+    noerror11 noop
+    hload temp 54 temp 53 0
+    hload temp 55 temp 54 4
+    return temp 55
+   end
+   ( temp 53 
+   begin
+    hload temp 57 temp 0 24
+    return temp 57
+   end 
+    ) 
+ mov temp 3 
+  call
+   begin
+    mov temp 58  temp 1
+    cjump lt 0 temp 58 noerror12
+    error
+    noerror12 noop
+    hload temp 59 temp 58 0
+    hload temp 60 temp 59 40
+    return temp 60
+   end
+   ( temp 58 0 
+    ) 
+ outlabel7 NOOP
+ outlabel4 NOOP
+ outlabel1 NOOP
+ return 1
+end
+
+Tree_RemoveRight [3]
+begin
+ mov temp 3 0
+ whilelabel1 NOOP
+ mov temp 5 
+  call
+   begin
+    mov temp 6  temp 2
+    cjump lt 0 temp 6 noerror1
+    error
+    noerror1 noop
+    hload temp 7 temp 6 0
+    hload temp 8 temp 7 28
+    return temp 8
+   end
+   ( temp 6 
+    ) 
+ cjump lt  temp 5 0 outlabel2
+ mov temp 3 
+  call
+   begin
+    mov temp 10  temp 2
+    cjump lt 0 temp 10 noerror2
+    error
+    noerror2 noop
+    hload temp 11 temp 10 0
+    hload temp 12 temp 11 24
+    return temp 12
+   end
+   ( temp 10 
+   call
+    begin
+     mov temp 14 
+      call
+       begin
+        mov temp 17  temp 2
+        cjump lt 0 temp 17 noerror3
+        error
+        noerror3 noop
+        hload temp 18 temp 17 0
+        hload temp 19 temp 18 12
+        return temp 19
+       end
+       ( temp 17 
+        ) 
+     cjump lt 0 temp 14 noerror4
+     error
+     noerror4 noop
+     hload temp 15 temp 14 0
+     hload temp 16 temp 15 20
+     return temp 16
+    end
+    ( temp 14 
+     )  
+    ) 
+ mov temp 1  temp 2
+ mov temp 2 
+  call
+   begin
+    mov temp 22  temp 2
+    cjump lt 0 temp 22 noerror5
+    error
+    noerror5 noop
+    hload temp 23 temp 22 0
+    hload temp 24 temp 23 12
+    return temp 24
+   end
+   ( temp 22 
+    ) 
+ jump whilelabel1
+ outlabel2 NOOP
+ mov temp 3 
+  call
+   begin
+    mov temp 26  temp 1
+    cjump lt 0 temp 26 noerror6
+    error
+    noerror6 noop
+    hload temp 27 temp 26 0
+    hload temp 28 temp 27 4
+    return temp 28
+   end
+   ( temp 26 
+   begin
+    hload temp 30 temp 0 24
+    return temp 30
+   end 
+    ) 
+ mov temp 3 
+  call
+   begin
+    mov temp 31  temp 1
+    cjump lt 0 temp 31 noerror7
+    error
+    noerror7 noop
+    hload temp 32 temp 31 0
+    hload temp 33 temp 32 40
+    return temp 33
+   end
+   ( temp 31 0 
+    ) 
+ return 1
+end
+
+Tree_RemoveLeft [3]
+begin
+ mov temp 3 0
+ whilelabel1 NOOP
+ mov temp 5 
+  call
+   begin
+    mov temp 6  temp 2
+    cjump lt 0 temp 6 noerror1
+    error
+    noerror1 noop
+    hload temp 7 temp 6 0
+    hload temp 8 temp 7 32
+    return temp 8
+   end
+   ( temp 6 
+    ) 
+ cjump lt  temp 5 0 outlabel2
+ mov temp 3 
+  call
+   begin
+    mov temp 10  temp 2
+    cjump lt 0 temp 10 noerror2
+    error
+    noerror2 noop
+    hload temp 11 temp 10 0
+    hload temp 12 temp 11 24
+    return temp 12
+   end
+   ( temp 10 
+   call
+    begin
+     mov temp 14 
+      call
+       begin
+        mov temp 17  temp 2
+        cjump lt 0 temp 17 noerror3
+        error
+        noerror3 noop
+        hload temp 18 temp 17 0
+        hload temp 19 temp 18 16
+        return temp 19
+       end
+       ( temp 17 
+        ) 
+     cjump lt 0 temp 14 noerror4
+     error
+     noerror4 noop
+     hload temp 15 temp 14 0
+     hload temp 16 temp 15 20
+     return temp 16
+    end
+    ( temp 14 
+     )  
+    ) 
+ mov temp 1  temp 2
+ mov temp 2 
+  call
+   begin
+    mov temp 22  temp 2
+    cjump lt 0 temp 22 noerror5
+    error
+    noerror5 noop
+    hload temp 23 temp 22 0
+    hload temp 24 temp 23 16
+    return temp 24
+   end
+   ( temp 22 
+    ) 
+ jump whilelabel1
+ outlabel2 NOOP
+ mov temp 3 
+  call
+   begin
+    mov temp 26  temp 1
+    cjump lt 0 temp 26 noerror6
+    error
+    noerror6 noop
+    hload temp 27 temp 26 0
+    hload temp 28 temp 27 8
+    return temp 28
+   end
+   ( temp 26 
+   begin
+    hload temp 30 temp 0 24
+    return temp 30
+   end 
+    ) 
+ mov temp 3 
+  call
+   begin
+    mov temp 31  temp 1
+    cjump lt 0 temp 31 noerror7
+    error
+    noerror7 noop
+    hload temp 32 temp 31 0
+    hload temp 33 temp 32 36
+    return temp 33
+   end
+   ( temp 31 0 
+    ) 
+ return 1
+end
+
+Tree_Search [2]
+begin
+ mov temp 2 0
+ mov temp 3 0
+ mov temp 4 0
+ mov temp 5 0
+ mov temp 4  temp 0
+ mov temp 2 1
+ mov temp 3 0
+ whilelabel1 NOOP
+ mov temp 7  temp 2
+ cjump lt  temp 7 0 outlabel2
+ mov temp 5 
+  call
+   begin
+    mov temp 9  temp 4
+    cjump lt 0 temp 9 noerror1
+    error
+    noerror1 noop
+    hload temp 10 temp 9 0
+    hload temp 11 temp 10 20
+    return temp 11
+   end
+   ( temp 9 
+    ) 
+ mov temp 13  lt  temp 1 temp 5
+ cjump lt  temp 13 1 elselabel5
+ iflabel4 NOOP
+ mov temp 16 
+  call
+   begin
+    mov temp 17  temp 4
+    cjump lt 0 temp 17 noerror2
+    error
+    noerror2 noop
+    hload temp 18 temp 17 0
+    hload temp 19 temp 18 32
+    return temp 19
+   end
+   ( temp 17 
+    ) 
+ cjump lt  temp 16 1 elselabel8
+ iflabel7 NOOP
+ mov temp 4 
+  call
+   begin
+    mov temp 21  temp 4
+    cjump lt 0 temp 21 noerror3
+    error
+    noerror3 noop
+    hload temp 22 temp 21 0
+    hload temp 23 temp 22 16
+    return temp 23
+   end
+   ( temp 21 
+    ) 
+ jump label6
+ elselabel8 NOOP
+ mov temp 2 0
+ outlabel6 NOOP
+ jump label3
+ elselabel5 NOOP
+ mov temp 25  lt  temp 5 temp 1
+ cjump lt  temp 25 1 elselabel11
+ iflabel10 NOOP
+ mov temp 28 
+  call
+   begin
+    mov temp 29  temp 4
+    cjump lt 0 temp 29 noerror4
+    error
+    noerror4 noop
+    hload temp 30 temp 29 0
+    hload temp 31 temp 30 28
+    return temp 31
+   end
+   ( temp 29 
+    ) 
+ cjump lt  temp 28 1 elselabel14
+ iflabel13 NOOP
+ mov temp 4 
+  call
+   begin
+    mov temp 33  temp 4
+    cjump lt 0 temp 33 noerror5
+    error
+    noerror5 noop
+    hload temp 34 temp 33 0
+    hload temp 35 temp 34 12
+    return temp 35
+   end
+   ( temp 33 
+    ) 
+ jump label12
+ elselabel14 NOOP
+ mov temp 2 0
+ outlabel12 NOOP
+ jump label9
+ elselabel11 NOOP
+ mov temp 3 1
+ mov temp 2 0
+ outlabel9 NOOP
+ outlabel3 NOOP
+ jump whilelabel1
+ outlabel2 NOOP
+ return  temp 3
+end
+
+Tree_Print [1]
+begin
+ mov temp 1 0
+ mov temp 2 0
+ mov temp 1  temp 0
+ mov temp 2 
+  call
+   begin
+    mov temp 4  temp 0
+    cjump lt 0 temp 4 noerror1
+    error
+    noerror1 noop
+    hload temp 5 temp 4 0
+    hload temp 6 temp 5 76
+    return temp 6
+   end
+   ( temp 4  temp 1 
+    ) 
+ return 1
+end
+
+Tree_RecPrint [2]
+begin
+ mov temp 2 0
+ mov temp 4 
+  call
+   begin
+    mov temp 5  temp 1
+    cjump lt 0 temp 5 noerror1
+    error
+    noerror1 noop
+    hload temp 6 temp 5 0
+    hload temp 7 temp 6 32
+    return temp 7
+   end
+   ( temp 5 
+    ) 
+ cjump lt  temp 4 1 elselabel3
+ iflabel2 NOOP
+ mov temp 2 
+  call
+   begin
+    mov temp 9  temp 0
+    cjump lt 0 temp 9 noerror2
+    error
+    noerror2 noop
+    hload temp 10 temp 9 0
+    hload temp 11 temp 10 76
+    return temp 11
+   end
+   ( temp 9 
+   call
+    begin
+     mov temp 12  temp 1
+     cjump lt 0 temp 12 noerror3
+     error
+     noerror3 noop
+     hload temp 13 temp 12 0
+     hload temp 14 temp 13 16
+     return temp 14
+    end
+    ( temp 12 
+     )  
+    ) 
+ jump label1
+ elselabel3 NOOP
+ mov temp 2 1
+ outlabel1 NOOP
+ print 
+  call
+   begin
+    mov temp 16  temp 1
+    cjump lt 0 temp 16 noerror4
+    error
+    noerror4 noop
+    hload temp 17 temp 16 0
+    hload temp 18 temp 17 20
+    return temp 18
+   end
+   ( temp 16 
+    ) 
+ mov temp 20 
+  call
+   begin
+    mov temp 21  temp 1
+    cjump lt 0 temp 21 noerror5
+    error
+    noerror5 noop
+    hload temp 22 temp 21 0
+    hload temp 23 temp 22 28
+    return temp 23
+   end
+   ( temp 21 
+    ) 
+ cjump lt  temp 20 1 elselabel6
+ iflabel5 NOOP
+ mov temp 2 
+  call
+   begin
+    mov temp 25  temp 0
+    cjump lt 0 temp 25 noerror6
+    error
+    noerror6 noop
+    hload temp 26 temp 25 0
+    hload temp 27 temp 26 76
+    return temp 27
+   end
+   ( temp 25 
+   call
+    begin
+     mov temp 28  temp 1
+     cjump lt 0 temp 28 noerror7
+     error
+     noerror7 noop
+     hload temp 29 temp 28 0
+     hload temp 30 temp 29 12
+     return temp 30
+    end
+    (

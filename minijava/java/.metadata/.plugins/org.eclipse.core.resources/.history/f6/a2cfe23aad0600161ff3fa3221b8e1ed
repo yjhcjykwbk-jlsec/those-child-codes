@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# UCLA CS 132, Fall 2003.  
+
+# This script is a bit like the one that will be used to test the solutions
+# to Homework 2.
+
+# User guide: the script assumes that you have a directory called "tests" 
+# and all the test cases with a type-error have a comment "// TE".
+ 
+echo "Program type checked successfully" > /tmp/noerror.out
+echo "Type error" > /tmp/error.out
+
+for file in tests/test*.java
+do
+     echo $file
+     java Typecheck < $file > /tmp/mj.out
+     T=`basename $file | sed s/.java//`
+     E=`grep -l TE $file` #the testcases that have a type error have a comment "// TE" next to the type error
+     if [ -z $E ]; then
+              diff /tmp/mj.out /tmp/noerror.out > /dev/null
+              if [ $? -eq 0 ]; then
+                  echo $T passed;
+              else
+                  echo $T failed;
+              fi
+     else
+              diff /tmp/mj.out /tmp/error.out > /dev/null
+              if [ $? -eq 0 ]; then
+                  echo $T passed;
+              else
+                  echo $T failed;
+              fi
+     fi
+done
+

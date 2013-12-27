@@ -1,0 +1,20 @@
+package visitor;
+
+import java.util.ArrayList;
+
+public class st{
+	boolean jump;
+	int jumpSt;
+	public String follow, label;
+	public ArrayList<Integer> def, use, v_in, v_out;
+
+	public st() {
+		jump = false;
+		follow = label = null;
+		jumpSt = -1;
+		def = new ArrayList<Integer>();
+		use = new ArrayList<Integer>();
+		v_in = new ArrayList<Integer>();
+		v_out = new ArrayList<Integer>();
+	}
+}

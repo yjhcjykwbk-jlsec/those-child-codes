@@ -1,0 +1,8 @@
+import java.awt.*;
+public class sample {
+	public static void main(String [] argu)
+	{
+		System.out.println("welcome");
+		Label label=new Label("138");
+	}
+}

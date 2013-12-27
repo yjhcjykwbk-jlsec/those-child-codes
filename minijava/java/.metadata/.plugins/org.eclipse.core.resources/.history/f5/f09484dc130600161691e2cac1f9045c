@@ -1,0 +1,782 @@
+package visitor;
+import java.util.Enumeration;
+import java.util.Stack;
+import java.util.Vector;
+import syntaxtree.AllocationExpression;
+import syntaxtree.AndExpression;
+import syntaxtree.ArrayAllocationExpression;
+import syntaxtree.ArrayAssignmentStatement;
+import syntaxtree.ArrayLength;
+import syntaxtree.ArrayLookup;
+import syntaxtree.ArrayType;
+import syntaxtree.AssignmentStatement;
+import syntaxtree.Block;
+import syntaxtree.BooleanType;
+import syntaxtree.BracketExpression;
+import syntaxtree.ClassDeclaration;
+import syntaxtree.ClassExtendsDeclaration;
+import syntaxtree.CompareExpression;
+import syntaxtree.Expression;
+import syntaxtree.ExpressionList;
+import syntaxtree.ExpressionRest;
+import syntaxtree.FalseLiteral;
+import syntaxtree.FormalParameter;
+import syntaxtree.FormalParameterList;
+import syntaxtree.FormalParameterRest;
+import syntaxtree.Goal;
+import syntaxtree.Identifier;
+import syntaxtree.IfStatement;
+import syntaxtree.IntegerLiteral;
+import syntaxtree.IntegerType;
+import syntaxtree.MainClass;
+import syntaxtree.MessageSend;
+import syntaxtree.MethodDeclaration;
+import syntaxtree.MinusExpression;
+import syntaxtree.Node;
+import syntaxtree.NodeList;
+import syntaxtree.NodeListOptional;
+import syntaxtree.NodeOptional;
+import syntaxtree.NodeSequence;
+import syntaxtree.NodeToken;
+import syntaxtree.NotExpression;
+import syntaxtree.PlusExpression;
+import syntaxtree.PrimaryExpression;
+import syntaxtree.PrintStatement;
+import syntaxtree.Statement;
+import syntaxtree.ThisExpression;
+import syntaxtree.TimesExpression;
+import syntaxtree.TrueLiteral;
+import syntaxtree.Type;
+import syntaxtree.TypeDeclaration;
+import syntaxtree.VarDeclaration;
+import syntaxtree.WhileStatement;
+import types.TypeItem;
+import types.ClassTable;
+import types.Function;
+
+
+public class TypeCheckVisit extends GJDepthFirst{	
+	types.TypeTable types;
+	types.ClassTable table;
+	types.Function func;//处理函数
+	
+	TypeItem temp;
+	TypeItem left;
+	TypeItem right;
+	Stack<Function> funcstack;
+	Stack<Integer> indexstack;
+	Stack<Integer> posstack;
+	String[] typename={"int []","boolean","int"};
+	public TypeCheckVisit(types.TypeTable Types)
+    {
+    	types=Types;
+    	indexstack=new Stack<Integer>();
+    	posstack=new Stack<Integer>();
+    	funcstack=new Stack<Function>();
+    }
+	public String getType(TypeItem a)
+	{
+		if(a==null)return "null";
+		if(a.TypeIndex<3) return typename[a.TypeIndex];
+		else return a.TypeName;
+	}
+    /**
+     * f0 -> MainClass()
+     * f1 -> ( TypeDeclaration() )*
+     * f2 -> <EOF>
+     */
+    public TypeItem visit(Goal n, Object argu) {
+       TypeItem _ret=null;
+       n.f0.accept(this, argu);
+       n.f1.accept(this, argu);
+       //System.out.println("type checked");
+       return _ret;
+    }
+
+    /**
+     * f0 -> "class"
+     * f1 -> Identifier()
+     * f2 -> "{"
+     * f3 -> "public"
+     * f4 -> "static"
+     * f5 -> "void"
+     * f6 -> "main"
+     * f7 -> "("
+     * f8 -> "String"
+     * f9 -> "["
+     * f10 -> "]"
+     * f11 -> Identifier()
+     * f12 -> ")"
+     * f13 -> "{"
+     * f14 -> PrintStatement()
+     * f15 -> "}"
+     * f16 -> "}"
+     */
+    public TypeItem visit(MainClass n, Object argu) {
+       TypeItem _ret=null;
+       table=types.getClass(n.f1.f0.toString());
+       func=table.getFunc("main");
+       //System.out.println("checking class "+table.name+"...");
+       n.f14.accept(this, argu);
+       return _ret;
+    }
+
+    /**
+     * f0 -> ClassDeclaration()
+     *       | ClassExtendsDeclaration()
+     */
+    public TypeItem visit(TypeDeclaration n, Object argu) {
+       TypeItem _ret=null;
+       n.f0.accept(this, argu);
+       return _ret;
+    }
+
+    /**
+     * f0 -> "class"
+     * f1 -> Identifier()
+     * f2 -> "{"
+     * f3 -> ( VarDeclaration() )*
+     * f4 -> ( MethodDeclaration() )*
+     * f5 -> "}"
+     */
+    public TypeItem visit(ClassDeclaration n, Object argu) {
+       TypeItem _ret=null;
+       table=types.getClass(n.f1.f0.toString());
+       //System.out.println("checking class "+table.name+"...");
+       n.f4.accept(this, argu);
+       return _ret;
+    }
+
+    /**
+     * f0 -> "class"
+     * f1 -> Identifier()
+     * f2 -> "extends"
+     * f3 -> Identifier()
+     * f4 -> "{"
+     * f5 -> ( VarDeclaration() )*
+     * f6 -> ( MethodDeclaration() )*
+     * f7 -> "}"
+     */
+    public TypeItem visit(ClassExtendsDeclaration n, Object argu) {
+       TypeItem _ret=null;
+       table=types.getClass(n.f1.f0.toString());
+       //System.out.println("checking class "+table.name+"...");
+       //深层检查是否有环 是否有错误定义的同名但不同类型函数
+       if(table.father!=null)
+    	   table.setFather();
+       n.f6.accept(this, argu);
+       return _ret;
+    }
+
+    /**
+     * f0 -> Type()
+     * f1 -> Identifier()
+     * f2 -> ";"
+    */ 
+    public TypeItem visit(VarDeclaration n, Object argu) {
+       TypeItem _ret=null;
+       return _ret;
+    }
+
+    /**
+     * f0 -> "public"
+     * f1 -> Type()
+     * f2 -> Identifier()
+     * f3 -> "("
+     * f4 -> ( FormalParameterList() )?
+     * f5 -> ")"
+     * f6 -> "{"
+     * f7 -> ( VarDeclaration() )*
+     * f8 -> ( Statement() )*
+     * f9 -> "return"
+     * f10 -> Expression()
+     * f11 -> ";"
+     * f12 -> "}"
+     */
+    public TypeItem visit(MethodDeclaration n, Object argu) {
+       func=table.getFunc(n.f2.f0.toString());
+       if(func==null) 
+       {
+    	   System.out.println("Undefined: "+n.f2.f0.tokenImage+" as a function");
+    	   return null;
+       }
+       temp=new TypeItem(n.f1);
+       if(temp.TypeIndex==3){
+    	   if(types.getClass(temp.TypeName)==null)
+    	       System.out.println("Undefined: "+temp.TypeName+" in line "+n.f0.beginLine+" as a return-typr");
+       }
+       n.f8.accept(this, argu);
+       left=n.f10.accept(this, argu);
+       temp=func.returnType;
+       
+       if(left==null||!left.fitFor(types,temp))
+       {
+    	   System.out.println("ReturnTypeError: in line "+n.f11.beginLine+" column "+n.f11.beginColumn+" from "+getType(left)+" to "+getType(func.returnType));
+       }
+       /*the function may have a return type as its son-class*/
+       else {func.realReturnType=left;}
+       return null;
+    }
+
+    /**
+     * f0 -> FormalParameter()
+     * f1 -> ( FormalParameterRest() )*
+     */
+    public TypeItem visit(FormalParameterList n, Object argu) {
+       TypeItem _ret=null;
+       return _ret;
+    }
+
+    /**
+     * f0 -> Type()
+     * f1 -> Identifier()
+    */
+    public TypeItem visit(FormalParameter n, Object argu) {
+       TypeItem _ret=null;
+       return _ret;
+    }
+ 
+    /**
+     * f0 -> ","
+     * f1 -> FormalParameter()
+     */
+    public TypeItem visit(FormalParameterRest n, Object argu) {
+       TypeItem _ret=null;
+       return _ret;
+    }
+
+    /**
+     * f0 -> ArrayType()
+     *       | BooleanType()
+     *       | IntegerType()
+     *       | Identifier()
+     */
+    public TypeItem visit(Type n, Object argu) {
+       TypeItem _ret=null;
+       return _ret;
+    }
+ 
+    /**
+     * f0 -> "int"
+     * f1 -> "["
+     * f2 -> "]"
+     */
+    public TypeItem visit(ArrayType n, Object argu) {
+       TypeItem _ret=null;
+       return _ret;
+    }
+
+    /**
+     * f0 -> "boolean"
+    */
+    public TypeItem visit(BooleanType n, Object argu) {
+       TypeItem _ret=null;
+       return _ret;
+    }
+
+    /**
+     * f0 -> "int"
+     */
+    public TypeItem visit(IntegerType n, Object argu) {
+       TypeItem _ret=null;
+       return _ret;
+    }
+
+    /**
+     * f0 -> Block()
+     *       | AssignmentStatement()
+     *       | ArrayAssignmentStatement()
+     *       | IfStatement()
+     *       | WhileStatement()
+     *       | PrintStatement()
+     */
+    public TypeItem visit(Statement n, Object argu) {
+       TypeItem _ret=null;
+       n.f0.accept(this, argu);
+       return _ret;
+    }
+
+    /**
+     * f0 -> "{"
+     * f1 -> ( Statement() )*
+     * f2 -> "}"
+     */
+    public TypeItem visit(Block n, Object argu) {
+       TypeItem _ret=null;
+       n.f1.accept(this, argu);
+       return _ret;
+    }
+
+    /**in funcition
+     * f0 -> Identifier()
+     * f1 -> "="
+     * f2 -> Expression()
+     * f3 -> ";"
+     */
+    public TypeItem visit(AssignmentStatement n, Object argu) {
+       TypeItem _ret=null;
+       temp=n.f0.accept(this,argu);
+       right=n.f2.accept(this, argu);
+       if(right==null||!right.fitFor(types,temp))
+       {
+    	   System.out.println("TypeError: assign type "+getType(right)+" to "+getType(temp)+" in line "+n.f0.f0.beginLine+" column "+n.f0.f0.beginColumn);
+       }
+       return _ret;
+    }
+
+    /**in function
+     * f0 -> Identifier()
+     * f1 -> "["
+     * f2 -> Expression()
+     * f3 -> "]"
+     * f4 -> "="
+     * f5 -> Expression()
+     * f6 -> ";"
+     */
+    public TypeItem visit(ArrayAssignmentStatement n, Object argu) {
+       TypeItem _ret=null;
+       temp=n.f0.accept(this,argu);
+       right=n.f2.accept(this, argu);
+       if(temp.TypeIndex!=0)
+       {
+    	   System.out.println("TypeError: in line "+n.f0.f0.beginLine+" column "+n.f0.f0.beginColumn+" "+n.f0.f0.tokenImage+" not as an int[]");
+       }
+       if(right==null||right.TypeIndex!=2)
+       {
+    	   System.out.println("TypeError: the expression after line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as an int cannot be put in [] as an index");
+       }
+       temp=n.f5.accept(this, argu);
+       if(temp==null||temp.TypeIndex!=2)
+       {
+    	   System.out.println("TypeError: the expression after line "+n.f4.beginLine+" column "+n.f4.beginColumn+" not as an int cannot be assigned to an int on the left");
+       }
+       return _ret;
+    }
+
+    /**
+     * f0 -> "if"
+     * f1 -> "("
+     * f2 -> Expression()
+     * f3 -> ")"
+     * f4 -> Statement()
+     * f5 -> "else"
+     * f6 -> Statement()
+     */
+    public TypeItem visit(IfStatement n, Object argu) {
+       TypeItem _ret=null;
+       temp=n.f2.accept(this, argu);
+       if(temp==null||temp.TypeIndex!=1)
+       {
+    	   System.out.println("TypeError: after line "+n.f0.beginLine+" column "+n.f0.beginColumn+" not as a boolean");
+       }
+       n.f4.accept(this, argu);
+       n.f6.accept(this, argu);
+       return _ret;
+    }
+
+    /**
+     * f0 -> "while"
+     * f1 -> "("
+     * f2 -> Expression()
+     * f3 -> ")"
+     * f4 -> Statement()
+     */
+    public TypeItem visit(WhileStatement n, Object argu) {
+       TypeItem _ret=null;
+       temp=n.f2.accept(this, argu);
+       if(temp==null||temp.TypeIndex!=1)
+       {
+    	   System.out.println("TypeError: after line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as a boolean");
+       }
+       n.f4.accept(this, argu);
+       return _ret;
+    }
+
+    /**
+     * f0 -> "System.out.println"
+     * f1 -> "("
+     * f2 -> Expression()
+     * f3 -> ")"
+     * f4 -> ";"
+     */
+    public TypeItem visit(PrintStatement n, Object argu) {
+       TypeItem _ret=null;
+       temp=n.f2.accept(this, argu);//print函数能输出哪些东东？
+       if(temp==null||temp.TypeIndex!=2)
+       {
+    	   System.out.println("TypeError: print type is not int but "+getType(temp)+" after ( in line "+n.f1.beginLine);
+       }
+       return _ret;
+    }
+
+    /**
+     * f0 -> AndExpression()
+     *       | CompareExpression()
+     *       | PlusExpression()
+     *       | MinusExpression()
+     *       | TimesExpression()
+     *       | ArrayLookup()
+     *       | ArrayLength()
+     *       | MessageSend()
+     *       | PrimaryExpression()
+     */
+    public TypeItem visit(Expression n, Object argu) {
+       return n.f0.accept(this, argu);
+    }
+
+    /**
+     * f0 -> PrimaryExpression()
+     * f1 -> "&&"
+     * f2 -> PrimaryExpression()
+     */
+    public TypeItem visit(AndExpression n, Object argu) {
+       TypeItem _ret=null;
+       left=n.f0.accept(this, argu);
+       right=n.f2.accept(this, argu);
+       if(left==null||left.TypeIndex!=1)
+       {
+    	   System.out.println("TypeError: before line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as a boolean");
+       }
+       if(right==null||right.TypeIndex!=1)
+       {
+    	   System.out.println("TypeError: after line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as a boolean");
+       }
+       return (new TypeItem(1));
+    }
+
+    /**
+     * f0 -> PrimaryExpression()
+     * f1 -> "<"
+     * f2 -> PrimaryExpression()
+     */
+    public TypeItem visit(CompareExpression n, Object argu) {
+       TypeItem _ret=null;
+       left=n.f0.accept(this, argu);
+       right=n.f2.accept(this, argu);
+       if(left==null||left.TypeIndex!=2)
+       {
+    	   System.out.println("TypeError: before line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as an int cannot be compared");
+       }
+       if(right==null||right.TypeIndex!=2)
+       {
+    	   System.out.println("TypeError: after line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as an int cannot be compared");
+       }
+       return (new TypeItem(1));//boolean
+    }
+
+    /**
+     * f0 -> PrimaryExpression()
+     * f1 -> "+"
+     * f2 -> PrimaryExpression()
+     */
+    public TypeItem visit(PlusExpression n, Object argu) {
+       TypeItem _ret=null;
+       left=n.f0.accept(this, argu);
+       right=n.f2.accept(this, argu);
+       if(left==null||left.TypeIndex!=2)
+       {
+    	   System.out.println("TypeError: before line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as an int cannot be added");
+       }
+       if(right==null||right.TypeIndex!=2)
+       {
+    	   System.out.println("TypeError: after line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as an int cannot be added");
+       }
+       return new TypeItem(2);//int
+    }
+
+    /**
+     * f0 -> PrimaryExpression()
+     * f1 -> "-"
+     * f2 -> PrimaryExpression()
+     */
+    public TypeItem visit(MinusExpression n, Object argu) {
+    	TypeItem _ret=null;
+        left=n.f0.accept(this, argu);
+        right=n.f2.accept(this, argu);
+        if(left==null||left.TypeIndex!=2)
+        {
+     	   System.out.println("TypeError: before line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as an int cannot be subtracted");
+        }
+        if(right==null||right.TypeIndex!=2)
+        {
+     	   System.out.println("TypeError: after line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as an int cannot be subtracted");
+        }
+        return new TypeItem(2);//int
+    }
+
+    /**
+     * f0 -> PrimaryExpression()
+     * f1 -> "*"
+     * f2 -> PrimaryExpression()
+     */
+	public TypeItem visit(TimesExpression n, Object argu) {
+    	TypeItem _ret=null;
+        left=n.f0.accept(this, argu);
+        n.f1.accept(this, argu);//
+        right=n.f2.accept(this, argu);
+        if(left==null||left.TypeIndex!=2)
+        {
+     	   System.out.println("TypeError: before line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as an int cannot be multiplied");
+        }
+        if(right==null||right.TypeIndex!=2)
+        {
+     	   System.out.println("TypeError: after line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as an int cannot be multiplied");
+        }
+        return new TypeItem(2);//int
+    }
+
+    /**
+     * f0 -> PrimaryExpression()
+     * f1 -> "["
+     * f2 -> PrimaryExpression()
+     * f3 -> "]"
+     */
+    public TypeItem visit(ArrayLookup n, Object argu)
+    {
+       TypeItem _ret=null;
+       left=n.f0.accept(this, argu);
+       if(left==null||left.TypeIndex!=0)
+       {
+    	   System.out.println("TypeError: before line "+n.f1.beginLine+" column "+n.f1.beginColumn+" not as an int[]");
+       }
+       right=n.f2.accept(this, argu);
+       if(right==null||right.TypeIndex!=2)
+       {
+    	   System.out.println("TypeError: after line "+n.f1.beginLine+" column "+n.f1.beginColumn+" expression type is "+getType(right)+" not as an int cannot be put in []");
+       }
+       return new TypeItem(2);
+    }
+
+    /**
+     * f0 -> PrimaryExpression()
+     * f1 -> "."
+     * f2 -> "length"
+     */
+    public TypeItem visit(ArrayLength n, Object argu) {
+       TypeItem _ret=null;
+       left=n.f0.accept(this, argu);
+       if(left==null||left.TypeIndex!=0)//int []
+       {
+    	   System.out.println("TypeError: before line"+n.f1.beginLine+" column "+n.f1.beginColumn+" not as an int[] cannot get its length");
+       }
+       return new TypeItem(1);
+    }
+
+    /**
+     * f0 -> PrimaryExpression()
+     * f1 -> "."
+     * f2 -> Identifier()
+     * f3 -> "("
+     * f4 -> ( ExpressionList() )?
+     * f5 -> ")"
+     */
+    public TypeItem visit(MessageSend n, Object argu) {
+       TypeItem _ret=null;
+       left=n.f0.accept(this, argu);
+       if(left==null)
+       {   
+    	   System.out.println("TypeError: before . in line "+n.f1.beginLine+" column "+n.f1.beginColumn+" is not class-typed");
+    	   return null;
+       }
+       n.className=left.TypeName;
+       ClassTable _table=types.getClass(left.TypeName);
+       Function _func;
+       if(_table==null)
+       {
+    	   System.out.println("Undefined: unknown-typed object before line"+n.f1.beginLine+" column "+n.f1.beginColumn+" as a class");
+    	   return null;
+       }
+       _func=_table.funcLookUp(n.f2.f0.tokenImage);
+       if(_func==null)
+       {
+    	   System.out.println("Undefined: "+n.f2.f0.tokenImage+" not as a founction in class "+_table.name+" in line "+n.f2.f0.beginLine+" column "+n.f2.f0.beginColumn);
+    	   return null;
+       }
+       //检查实际参数个数和类型
+       if ( n.f4.present() )
+       {
+    	   posstack.add(n.f2.f0.beginLine);
+           posstack.add(n.f2.f0.beginColumn);
+           indexstack.add(0);
+           funcstack.add(_func);
+           n.f4.node.accept(this,argu);
+           posstack.pop();
+           posstack.pop();
+           indexstack.pop();
+           funcstack.pop();
+       }
+       else
+       {
+    	   int size=_func.para.size();
+    	   //实参个数不应该为0
+    	   if(_func.para.size()>0)
+           {
+        	   System.out.println("TypeError: in function "+_func.name +" para number should be "+size+" not 0"+" in line "+n.f2.f0.beginLine+" column "+n.f2.f0.beginColumn);   
+           }
+       }
+       return _func.returnType;
+    }
+
+    /**
+     * f0 -> Expression()
+     * f1 -> ( ExpressionRest() )*
+     */
+    public TypeItem visit(ExpressionList n, Object argu) {
+       TypeItem _ret=null;
+       right=n.f0.accept(this, argu);
+       int index=(indexstack.pop());
+       int size=funcstack.elementAt(0).para.size();
+       if(size>=index+1) 
+           left=funcstack.elementAt(0).para.elementAt(index);
+       else left=null;
+       if(right==null||!right.fitFor(types,left))
+    		   {
+    	           System.out.println("TypeError: in function "+funcstack.elementAt(0).name+" para "+index +" should be "+getType(left)+" in line "+posstack.elementAt(0)+" column "+posstack.elementAt(1)+" not "+getType(right));   
+    		   }
+       indexstack.push(index+1);
+
+       if(n.f1.present())
+       {
+    	   n.f1.accept(this, argu);
+       }
+       else
+    	{
+    	   if(size>1)
+    	   {
+    	   System.out.println("TypeError: in function "+funcstack.elementAt(0).name +" para number should be "+size+" not 1"+" in line "+posstack.elementAt(0)+" column "+posstack.elementAt(1));
+    	   }
+    	}
+       return _ret;
+    }
+
+    /**
+     * f0 -> ","
+     * f1 -> Expression()
+     *//////////////核心
+    public TypeItem visit(ExpressionRest n,Object argu) {
+       TypeItem _ret=null;
+       right=n.f1.accept(this, argu);
+       int index=(indexstack.pop());
+       int size=funcstack.elementAt(0).para.size();
+       String name=funcstack.elementAt(0).name;
+       if(size>=index+1) 
+            left=funcstack.elementAt(0).para.elementAt(index);
+       else left=null;
+       if(right==null||!right.fitFor(types,left))
+	   {
+    	   System.out.println("TypeError: in function "+name+" para "+index +" should be "+getType(left)+" in line "+posstack.elementAt(0)+" column "+posstack.elementAt(1)+" not "+getType(right));    
+	   }
+       if(size>index+1) 
+       {
+    	   System.out.println("TypeError: in function "+name +" para number should be "+size+" not "+(index+1));   
+       }
+       indexstack.push(index+1);
+       return _ret;
+    }
+
+    /**
+     * f0 -> IntegerLiteral()
+     *       | TrueLiteral()
+     *       | FalseLiteral()
+     *       | Identifier()
+     *       | ThisExpression()
+     *       | ArrayAllocationExpression()
+     *       | AllocationExpression()
+     *       | NotExpression()
+     *       | BracketExpression()
+     */
+    public TypeItem visit(PrimaryExpression n, Object argu) {
+       return n.f0.accept(this, argu);
+    }
+
+    /**
+     * f0 -> <INTEGER_LITERAL>
+     */
+    public TypeItem visit(IntegerLiteral n, Object argu) {
+    	return new TypeItem(2);
+    }
+
+    /**
+     * f0 -> "true"
+     */
+    public TypeItem visit(TrueLiteral n, Object argu) {
+       return new TypeItem(1);
+    }
+
+    /**
+     * f0 -> "false"
+     */
+    public TypeItem visit(FalseLiteral n, Object argu) {
+    	return new TypeItem(1);
+    }
+
+    /**
+     * f0 -> <IDENTIFIE
+     * */
+    public TypeItem visit(Identifier n, Object argu) {
+    	
+    	if(func.varLookUp(n.f0.tokenImage)==null) {System.out.println("Undefined: "+n.f0.tokenImage+" in line "+n.f0.beginLine+" column "+n.f0.beginColumn);return null;}
+    	return func.varLookUp(n.f0.tokenImage);
+    }
+
+    /**
+     * f0 -> "this"
+     */
+    public TypeItem visit(ThisExpression n, Object argu) {
+       return (new TypeItem(table.name));
+    }
+
+    /**
+     * f0 -> "new"
+     * f1 -> "int"
+     * f2 -> "["
+     * f3 -> Expression()
+     * f4 -> "]"
+     */
+    public TypeItem visit(ArrayAllocationExpression n, Object argu) {
+       left=n.f3.accept(this, argu);
+       if(left.TypeIndex!=2)
+       {
+    	   System.out.println("TypeError:after line "+n.f2.beginLine+" column "+n.f2.beginColumn+" not as an int cannot be put in []");
+       }
+       return new TypeItem(0);//int []
+    }
+
+    /**
+     * f0 -> "new"
+     * f1 -> Identifier()
+     * f2 -> "("
+     * f3 -> ")"
+     */
+    public TypeItem visit(AllocationExpression n, Object argu) {
+       if(types.getClass(n.f1.f0.tokenImage)==null)
+       {
+    	   System.out.println("TypeError:in line "+n.f1.f0.beginLine+" column "+n.f1.f0.beginColumn+" not as a class");
+    	   return null;
+       }
+       return new TypeItem(n.f1.f0.tokenImage);
+    }
+
+    /**
+     * f0 -> "!"
+     * f1 -> Expression()
+     */
+    public TypeItem visit(NotExpression n, Object argu) {
+       left=n.f1.accept(this, argu);
+       if(left==null||left.TypeIndex!=1)
+       {
+    	   System.out.println("TypeError:after line "+n.f0.beginLine+" column "+n.f0.beginColumn+" not as a boolean");
+       }
+       return new TypeItem(1);
+    }
+
+    /**
+     * f0 -> "("
+     * f1 -> Expression()
+     * f2 -> ")"
+     */
+    public TypeItem visit(BracketExpression n, Object argu) {
+    	return n.f1.accept(this, argu);
+    }
+
+ }

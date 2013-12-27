@@ -1,0 +1,19 @@
+package visitor;
+
+import java.util.HashSet;
+public class st{
+	boolean jump;
+	int jumpSt;
+	public String follow, label;
+	public HashSet<Integer> def, use, v_in, v_out;
+
+	public st() {
+		jump = false;
+		follow = label = null;
+		jumpSt = -1;
+		def = new HashSet<Integer>();
+		use = new HashSet<Integer>();
+		v_in = new HashSet<Integer>();
+		v_out = new HashSet<Integer>();
+	}
+}

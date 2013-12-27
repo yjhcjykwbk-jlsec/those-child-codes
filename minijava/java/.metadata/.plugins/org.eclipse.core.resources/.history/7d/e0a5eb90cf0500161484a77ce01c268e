@@ -1,0 +1,30 @@
+package types;
+import java.util.HashMap;
+import java.util.Vector;
+
+
+public class FunctionTable {
+  public HashMap<String,Function> a;
+  public Vector<String>b;
+  public FunctionTable()
+  {
+	  a=new HashMap<String,Function>();
+  }
+  public Function get(String name)
+  {
+	  return (a.get(name));
+  }
+  public void addFunc(String name,Function func)throws TypeRepeatException 
+  {
+	  if(a.put(name, func)!=null)throw (new TypeRepeatException(name));
+	  else b.add(name);
+  }
+  public int getSize()
+  {
+	  return a.size();
+  }
+  public String getFunc(int index)
+  {
+	  return b.elementAt(index);
+  }
+}

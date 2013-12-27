@@ -1,0 +1,176 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010780757931
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010780803648
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010780803985
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010780812547
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010780817734
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010780862041
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010780862352
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010780874597
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010780878393
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010780917181
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010780917522
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010780925223
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010780925590
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010780973315
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010780979235
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010780995025
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010780998656
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781016660
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781016983
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781047080
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781047399
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010781082065
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010781087494
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010781118246
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010781120105
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781126096
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781126478
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010781187788
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010781189016
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781200417
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781200742
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010781214011
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010781216651
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781219448
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781219835
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010781237252
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010781242963
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010781245019
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781251590
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781251948
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010781264182
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010781265979
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781267907
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781268245
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781283161
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781283527
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781319804
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781320176
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781357521
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781357831
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010781380510
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010781385670
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781392713
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781393036
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010781425357
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010781434819
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010781454271
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010781456496
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781465992
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781466330
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781501323
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781501668
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781522881
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781523219
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781566999
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781567333
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010781575399
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010781578125
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781583755
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781584121
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781661389
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781661766
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781678300
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781678617
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781713189
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781713517
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781732000
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781732319
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781822638
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781823014
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781931281
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781931616
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781960449
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781960761
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010781970967
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010781971291
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010781974770
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782001310
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782010890
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782011205
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782035451
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782035772
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782090455
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782090813
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782106074
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782106412
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010782135450
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782143284
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782166053
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782166385
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782179376
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782179707
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782190109
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782190447
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782208426
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782208751
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010782287115
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782288718
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782294952
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782295290
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782303650
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782303969
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782329579
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782329893
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010782336645
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782339141
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782351180
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782351486
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010782356381
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782358997
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782362232
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782362597
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1010782443537
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1010782444062
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782459134
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782459456
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782467131
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782467515
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782490521
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782490846
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782510917
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782511262
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782534776
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782535102
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782578452
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782578777
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010782593899
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782609910
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782617690
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782618005
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010782646078
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782648259
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782657443
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782657787
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782661842
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782662216
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010782689361
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782691214
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782692495
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782692828
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010782721421
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782724339
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1010782726061
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782729115
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782729454
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010782738871
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782756496
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010782769698
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782777621
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782778505
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782778842
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782813542
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782813877
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782884062
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782884401
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782898075
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782898399
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010782949626
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782959538
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1010782965001
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010782984766
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010782997862
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010782998201
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010783017669
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010783018043

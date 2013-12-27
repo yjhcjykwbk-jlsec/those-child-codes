@@ -1,0 +1,9 @@
+package visitor;
+public class tab extends Object
+{
+	public Integer t;
+	public tab()
+	{
+		t=0;
+	}
+}

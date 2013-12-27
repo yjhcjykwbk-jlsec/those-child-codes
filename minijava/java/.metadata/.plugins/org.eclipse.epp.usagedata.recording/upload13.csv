@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,com.collabnet.subversion.merge,2.1.0,"com.collabnet.subversion.merge",1010786873310
+started,bundle,org.tigris.subversion.clientadapter,1.6.12,"org.tigris.subversion.clientadapter",1010786873310
+started,bundle,org.tigris.subversion.subclipse.core,1.6.13,"org.tigris.subversion.subclipse.core",1010786873310
+started,bundle,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui",1010786873310
+os,sysinfo,,,"win32",1010786873326
+arch,sysinfo,,,"x86",1010786873326
+ws,sysinfo,,,"win32",1010786873326
+locale,sysinfo,,,"zh_CN",1010786873326
+processors,sysinfo,,,"2",1010786873326
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1010786873326
+java.runtime.version,sysinfo,,,"1.6.0_10-rc2-b32",1010786873326
+java.specification.name,sysinfo,,,"Java Platform API Specification",1010786873326
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1010786873326
+java.specification.version,sysinfo,,,"1.6",1010786873326
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1010786873326
+java.version,sysinfo,,,"1.6.0_10-rc2",1010786873326
+java.vm.info,sysinfo,,,"mixed mode",1010786873326
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1010786873326
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1010786873326
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1010786873326
+java.vm.specification.version,sysinfo,,,"1.0",1010786873326
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1010786873326
+java.vm.version,sysinfo,,,"11.0-b15",1010786873326
+started,bundle,org.eclipse.mylyn.context.core,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.context.core",1010786873326
+started,bundle,org.eclipse.mylyn.context.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.context.ui",1010786873372
+started,bundle,org.eclipse.mylyn.tasks.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.tasks.ui",1010786873435
+started,bundle,org.eclipse.mylyn.team.ui,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.team.ui",1010786873435
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1010786873451
+started,bundle,org.tigris.subversion.subclipse.mylyn,3.0.0,"org.tigris.subversion.subclipse.mylyn",1010786873497
+started,bundle,org.eclipse.jsch.core,1.1.200.I20100505-1245,"org.eclipse.jsch.core",1010786873560
+started,bundle,org.eclipse.team.cvs.core,3.3.300.I20100526-0800,"org.eclipse.team.cvs.core",1010786873982
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1010786873997
+started,bundle,org.eclipse.update.core,3.2.400.v20100512,"org.eclipse.update.core",1010786874013
+started,bundle,org.eclipse.team.cvs.ui,3.3.300.I20100526-0800,"org.eclipse.team.cvs.ui",1010786874060
+started,bundle,org.eclipse.jst.servlet.ui,1.1.400.v201005272100,"org.eclipse.jst.servlet.ui",1010786874247
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010786875794
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010786877310
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.202.v201004211732,"org.eclipse.wst.ws.service.policy.ui",1010786877513
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.203.v201004211732,"org.eclipse.wst.ws.service.policy",1010786877513
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1010786877544
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1010786877560
+started,bundle,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui",1010786878966
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.12,"org.tigris.subversion.clientadapter.javahl",1010786881560
+started,bundle,org.tigris.subversion.clientadapter.svnkit,1.6.12,"org.tigris.subversion.clientadapter.svnkit",1010786881560
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786883013
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786896622
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1010786896669
+error,log,,,"org.tigris.subversion.javahl.ClientException: Attempted to lock an already-locked dir\nsvn: Working copy 'E:\\java\\default project\\src\\visitor' locked\n",1010786896701
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786896997
+opened,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1010786897060
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786897107
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1010786897122
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786899810
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786905997
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010786910029
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786913122
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786914872
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1010786914888
+error,log,,,"org.tigris.subversion.javahl.ClientException: Attempted to lock an already-locked dir\nsvn: Working copy 'E:\\java\\default project\\src\\visitor' locked\n",1010786914904
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786915154
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786915247
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1010786915247
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786918060
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786918279
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786920997
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786921951
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786922451
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786944165
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786944650
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786975788
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010786976742
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786980117
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010786985101
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786985398
+executed,command,org.eclipse.ltk.ui.refactoring,3.5.0.v20100526-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1010786985398
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.delete",1010786985398
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010786989195
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787011429
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.newWizard",1010787011445
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787011710
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787019773
+started,bundle,org.eclipse.jpt.core,2.3.0.v201006020000,"org.eclipse.jpt.core",1010787020179
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010787020523
+started,bundle,org.eclipse.jst.ws.jaxws.dom.integration,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.integration",1010787021460
+started,bundle,org.eclipse.jst.ws.jaxws.dom.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.ui",1010787021538
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787023742
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\syntaxtree\\.svn' containing working copy admin area is missing\n",1010787023820
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\temp\\.svn' containing working copy admin area is missing\n",1010787023867
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010787023882
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\types\\.svn' containing working copy admin area is missing\n",1010787023898
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787117229
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787118073
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787200434
+opened,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787209449
+started,bundle,org.eclipse.jdt.debug,3.6.0.v20100526,"org.eclipse.jdt.debug",1010787209590
+started,bundle,org.eclipse.jdt.debug.ui,3.5.0.v20100602-0830,"org.eclipse.jdt.debug.ui",1010787209699
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787209731
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010787214434
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.refresh",1010787219934
+started,bundle,org.eclipse.jdt.junit,3.6.0.v20100526-0800,"org.eclipse.jdt.junit",1010787221512
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787221856
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010787222028
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\types\\.svn' containing working copy admin area is missing\n",1010787222043
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\syntaxtree\\.svn' containing working copy admin area is missing\n",1010787222043
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010787222074
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010787225637
+opened,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787226090
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787226340
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010787229153
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787235418
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787235496
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787235496
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010787236496
+opened,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787236778
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787236918
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787246824
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787246824
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010787247934
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010787247934
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787251262
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787253668
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1010787253715
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy is corrupt\nsvn: Commit failed (details follow):\nsvn: Entry for 'E:\\java\\default project\\bin\\test' has no URL\n",1010787253793
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787253996
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787254074
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1010787254090
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787261246
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787267699
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787274434
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787283106
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787283793
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787298824
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010787300356
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787303559
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787306403
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1010787306449
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy is corrupt\nsvn: Commit failed (details follow):\nsvn: Entry for 'E:\\java\\default project\\bin\\test' has no URL\n",1010787306496
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787306731
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787306793
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1010787306809
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787313887
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787314028
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787314793
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787340043
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010787341184
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787344512
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787346074
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1010787346121
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy is corrupt\nsvn: Commit failed (details follow):\nsvn: Entry for 'E:\\java\\default project\\bin\\test' has no URL\n",1010787346184
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787346403
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787346481
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1010787346481
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787352965
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787353434
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787354731
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787378508
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010787378524
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.refresh",1010787382945
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\test\\.svn' containing working copy admin area is missing\n",1010787383055
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787388352
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787389524
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1010787389570
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787389867
+error,log,,,"org.tigris.subversion.javahl.ClientException: Merge conflict during commit\nsvn: Commit failed (details follow):\nsvn: File or directory 'main.java' is out of date; try updating\nsvn: The version resource does not correspond to the resource within the transaction.  Either the requested version resource is out of date (needs to be updated), or the requested version resource is newer than the transaction root (restart the commit).\n",1010787390180
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787390211
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1010787390211
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787398305
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787398539
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010787401930
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287224268313
+started,bundle,org.eclipse.epp.usagedata.ui,1.3.0.R201005261100,"org.eclipse.epp.usagedata.ui",1287224268344
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287224268750
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287224285579
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1287224286386
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287224289527
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287224291042
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1287224291105
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287224291355
+error,log,,,"org.tigris.subversion.javahl.ClientException: Merge conflict during commit\nsvn: Commit failed (details follow):\nsvn: File or directory 'main.java' is out of date; try updating\nsvn: The version resource does not correspond to the resource within the transaction.  Either the requested version resource is out of date (needs to be updated), or the requested version resource is newer than the transaction root (restart the commit).\n",1287224291527
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287224291636
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1287224291652
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287224294496
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287224294683
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1287224300464
+opened,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1287224310167
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1287224310277
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287224312996
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829121421
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829121625
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829126313
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1287829128511
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.refresh",1287829131417
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829138214
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829139464
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1287829139527
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829139792
+error,log,,,"org.tigris.subversion.javahl.ClientException: Merge conflict during commit\nsvn: Commit failed (details follow):\nsvn: File or directory 'main.java' is out of date; try updating\nsvn: The version resource does not correspond to the resource within the transaction.  Either the requested version resource is out of date (needs to be updated), or the requested version resource is newer than the transaction root (restart the commit).\n",1287829139933
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829140074
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1287829140089
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829144730
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829149683
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1287829159089
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1287829172527
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1287829180886
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1287829185996
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1287829188839
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1287829190746
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1287829192558
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829196011
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829197074
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1287829197136
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829197386
+error,log,,,"org.tigris.subversion.javahl.ClientException: Merge conflict during commit\nsvn: Commit failed (details follow):\nsvn: File or directory 'main.java' is out of date; try updating\nsvn: The version resource does not correspond to the resource within the transaction.  Either the requested version resource is out of date (needs to be updated), or the requested version resource is newer than the transaction root (restart the commit).\n",1287829197558
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829197683
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1287829197683
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829202496
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829203214
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829214871
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829237537
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1287829238458
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.refresh",1287829240849
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829242287
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829245943
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829250318
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829251490
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1287829251552
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829251802
+error,log,,,"org.tigris.subversion.javahl.ClientException: Merge conflict during commit\nsvn: Commit failed (details follow):\nsvn: File or directory 'main.java' is out of date; try updating\nsvn: The version resource does not correspond to the resource within the transaction.  Either the requested version resource is out of date (needs to be updated), or the requested version resource is newer than the transaction root (restart the commit).\n",1287829252005
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829252130
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1287829252130
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829253912
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829254271
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1287829258552
+closed,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1287829258583
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829267162
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829275630
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1287829275677
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829275943
+error,log,,,"org.tigris.subversion.javahl.ClientException: Merge conflict during commit\nsvn: Commit failed (details follow):\nsvn: File or directory 'main.java' is out of date; try updating\nsvn: The version resource does not correspond to the resource within the transaction.  Either the requested version resource is out of date (needs to be updated), or the requested version resource is newer than the transaction root (restart the commit).\n",1287829276130
+opened,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1287829276240
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829277583
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829282271
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829283787
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1287829283818
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829287099
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829288271
+executed,command,org.tigris.subversion.subclipse.ui,1.6.13,"org.tigris.subversion.subclipse.ui.commit",1287829288333
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829288693
+error,log,,,"org.tigris.subversion.javahl.ClientException: Merge conflict during commit\nsvn: Commit failed (details follow):\nsvn: File or directory 'ClassTable.java' is out of date; try updating\nsvn: The version resource does not correspond to the resource within the transaction.  Either the requested version resource is out of date (needs to be updated), or the requested version resource is newer than the transaction root (restart the commit).\n",1287829288740
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1287829297240

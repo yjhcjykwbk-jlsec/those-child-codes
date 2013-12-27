@@ -1,0 +1,62 @@
+package types;
+import java.util.Vector;
+
+import visitor.VarNotFoundException;
+public class Function {
+	public String name;
+	public TypeItem returnType;//0 1 2 
+	public ClassTable scope;
+	public int index;//
+	public Vector<TypeItem> para;//虚参数表
+	public void addPara(TypeItem type) 
+	{
+		para.add(type);
+	}
+	public VarTable body;//BODY新申明的元素不能和para元素重复。可以和class中元素重复
+	public Function(String funcname,ClassTable classid)
+	{
+		name=funcname;
+		scope=classid;
+		para=new Vector<TypeItem>();
+		body=new VarTable();
+	}
+	public void setReturnType(TypeItem t) 
+	{
+		returnType=t;
+	}
+	public TypeItem varLookUp(String name)//varLookUp 
+    {
+    	if(body.varLookUp(name)!=null) return body.varLookUp(name);
+    	else return scope.varLookUp(name);
+    }
+	public boolean isEqual(Function a)
+	{
+		if(!returnType.equals(a.returnType)) return false;
+		int size=para.size();
+		if(size!=a.para.size()) return false;
+		for(int i=0;i<size-1;i++)
+		{
+			if(!para.elementAt(i).equals(a.para.elementAt(i))) return false;
+		}
+		return true;
+	}
+	public boolean declaredInFunc(String name)//judge whether the value is declared in the function
+	{
+		if(body.varLookUp(name)!=null) 
+		{
+			if(body.getNum(name)>=para.size())
+				return true;
+			/*declared in para-list*/
+			else return false;
+		}
+		else return false;
+	}
+	public int getNum(String name)
+	{
+		//declared in function
+		if(body.varLookUp(name)!=null)
+				return (body.getNum(name));
+		//declared in class,the number will be added by one
+		else return (scope.var.getNum(name)+1);
+	}
+}

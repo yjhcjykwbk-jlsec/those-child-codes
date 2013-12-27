@@ -1,0 +1,9 @@
+
+public class run {
+	SpigletParser spiglet=new SpigletParser(System.in);
+	try{
+		syntaxtree.Goal goal=spiglet.Goal();
+	}
+	catch(Exception ee){}
+
+}

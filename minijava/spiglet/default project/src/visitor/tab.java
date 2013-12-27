@@ -1,0 +1,23 @@
+package visitor;
+
+public class tab extends Object
+{
+	public int t;
+	public tab()
+	{
+		t=0;
+	}
+	public tab(int s)
+	{
+		t=s;
+	}
+	public tab add()
+	{
+		return(new tab(t+1));
+	}
+	public tab add(int n)
+	{
+		return(new tab(t+n));
+	}
+}
+

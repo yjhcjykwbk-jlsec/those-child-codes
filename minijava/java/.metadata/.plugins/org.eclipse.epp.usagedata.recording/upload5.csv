@@ -1,0 +1,226 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1010765965639
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010765982108
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010765982483
+executed,command,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.commands.RunLast",1010765984921
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010765984936
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010765987624
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766000092
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1010766004530
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766004546
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766004561
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766004577
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766004608
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766004608
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.closeAll",1010766004639
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766006139
+opened,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766008467
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766008608
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766022436
+opened,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766023139
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766023249
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766028624
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766028967
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766037327
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766037671
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766038842
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766039139
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766046342
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766047546
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766054936
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766055077
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766067733
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766068077
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766069108
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766080577
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766080874
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766081952
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766082155
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766087249
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766087592
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766088858
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766104811
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766112061
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766112077
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.closeAll",1010766112092
+opened,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766114186
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766114249
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766121030
+opened,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766121483
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766121608
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766145014
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766145686
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766152092
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766156264
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766173780
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766175592
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766178764
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766180061
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766181155
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766181467
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766182608
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766182936
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766207811
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766208514
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766212171
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766212467
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766228077
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766228436
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766246483
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766246921
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010766251999
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010766252967
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766256030
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766257702
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766257749
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.delete",1010766257811
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766258139
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766259671
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766260827
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010766260858
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010766265139
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766297686
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766298046
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766324967
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766325280
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766339983
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766340296
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766345249
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766345624
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766354733
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766355077
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010766382077
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010766383764
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010766385108
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010766385421
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010766426608
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766433014
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.findReplace",1010766433030
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766450840
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766452247
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766463903
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766464637
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766467872
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1010766469762
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766471669
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766700427
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766706102
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766747070
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766753578
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766767643
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766768608
+no handler,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1010766782184
+no handler,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1010766783032
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766783386
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1010766783950
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766786199
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766795265
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766796357
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766804816
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766805780
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766817431
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1010766818606
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766823219
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766828126
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766829898
+no handler,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1010766842835
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010766859113
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766868594
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766870302
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766880441
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1010766881844
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766885453
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766893886
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766894764
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766918844
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766926304
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766936623
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.saveAs",1010766936641
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.selectAll",1010766939582
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010766940132
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766941013
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766949815
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766949931
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766954190
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766958129
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766959629
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766976256
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766977380
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766979036
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010766987387
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767004780
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767005537
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767006956
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767007817
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767008740
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767010008
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767022579
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767023439
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767026594
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767027695
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767028766
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767030479
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767042256
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767044550
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767045865
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767049900
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767052583
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767057908
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767062103
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767064827
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767074350
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767075295
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767079553
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1010767200601
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010767251493
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010767251870
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767260136
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767283386
+executed,command,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.commands.RunLast",1010767288770
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767288791
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767292714
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.saveAll",1010767295133
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010767295462
+executed,command,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.commands.RunLast",1010767296608
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767296643
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767299250
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1010767303237
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767310251
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767311373
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010767311384
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767313211
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767314988
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010767315017
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010767319158
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010767324278
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.cut",1010767330972
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010767332945
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010767338734
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010767340629
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010767341224
+activated,view,org.eclipse.ui.navigator.resources,3.4.200.I20100601-0800,"org.eclipse.ui.navigator.ProjectExplorer",1010767343241
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767346299
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767348410
+opened,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010767348614
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010767348709
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010767348823
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1010767352335
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1010767354679
+error,log,,,"org.tigris.subversion.javahl.ClientException: Working copy not locked; this is probably a bug, please report\nsvn: Directory 'E:\\java\\default project\\bin\\visitor\\.svn' containing working copy admin area is missing\n",1010767355011
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010767358611
+closed,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010767358612
+executed,command,org.eclipse.debug.ui,3.6.0.v20100601-1530,"org.eclipse.debug.ui.commands.RunLast",1010767364363
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767364375
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767365371
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1010767366453
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767367365
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767368487
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767372733
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767373598
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010767373626
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767375461
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767381393
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1010767381416
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767382796
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1010767387901
+activated,editor,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.CompilationUnitEditor",1010767387940

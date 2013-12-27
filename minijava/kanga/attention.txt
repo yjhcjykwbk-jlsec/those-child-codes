@@ -1,0 +1,2 @@
+ctrl+f10 显示行号！http://www.blogjava.net/zhyiwww/archive/2007/04/05/77622.html
+对于folding（卷上） 可以快速地打开和卷上。右键即可。

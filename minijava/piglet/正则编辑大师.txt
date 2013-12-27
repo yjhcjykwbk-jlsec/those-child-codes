@@ -1,0 +1,12 @@
+System.out.println(.*);
+Println($1,s)
+
+
+//(.*)
+/*$1*/
+
+Println(.*),( )*s
+Println$1
+
+v.elementAt\(([^.)]*)\)
+v[$1]

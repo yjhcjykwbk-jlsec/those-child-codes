@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="273" key="DIALOG_WIDTH"/>
+		<item value="222" key="DIALOG_Y_ORIGIN"/>
+		<item value="397" key="DIALOG_HEIGHT"/>
+		<item value="697" key="DIALOG_X_ORIGIN"/>
+		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="wrap"/>
+		<item value="true" key="isRegEx"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="29" key="selection"/>
+		<list key="findhistory">
+			<item value="29"/>
+			<item value="System.out"/>
+			<item value=".kind"/>
+			<item value="label"/>
+			<item value="StmtList"/>
+			<item value="Stmt"/>
+			<item value="MoveStmt"/>
+			<item value="public st"/>
+		</list>
+		<list key="replacehistory">
+			<item value=".tokenimage"/>
+			<item value="public Object"/>
+			<item value="st v"/>
+			<item value="st argu"/>
+			<item value="Object "/>
+			<item value="Object"/>
+			<item value="NER"/>
+			<item value=""/>
+		</list>
+	</section>
+</section>

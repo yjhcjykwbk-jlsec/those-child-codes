@@ -1,0 +1,20 @@
+import java.awt.*;
+public class sample {
+	public static void main(String [] argu)
+	{
+		new frame();
+		System.out.println("welcome");
+		System.exit(0);//
+	}
+}
+class frame extends Frame
+{
+	public frame()
+	{
+		Label label=new Label("138");
+		label.setVisible(true);
+		add(label);
+		setVisible(true);
+		System.exit(0);//
+	}
+}

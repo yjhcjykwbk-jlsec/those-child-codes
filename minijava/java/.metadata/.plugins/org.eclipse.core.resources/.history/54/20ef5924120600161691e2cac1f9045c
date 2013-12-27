@@ -1,0 +1,43 @@
+package types;
+public class TypeItem {
+	//public int reg;//为对象类型准备的
+	int num;//编号。这个必须有，在vartable里的编号
+	public int TypeIndex;//0 1 2 (in[] int boolean) 3 class 4 function
+	public String TypeName;//TypeIndex=3,class name=typename
+	public TypeItem(int type)
+	{
+		TypeIndex=type;
+		if(type<3) TypeName="";
+	}
+	public TypeItem(String type)
+	{
+		TypeIndex=3;
+		TypeName=type;
+	}
+	public TypeItem(syntaxtree.Type x)
+	{
+		int s=x.f0.which;
+		TypeIndex=s;
+		if(s<3) {TypeName="";}
+		else {TypeName=((syntaxtree.Identifier)(x.f0.choice)).f0.toString();}
+	}
+	public boolean isClass()
+	{
+		return (TypeIndex>2);
+	}
+	/*if this equals b ,or is his son*/
+	public boolean equals(TypeTable types,TypeItem b)
+	{//this!=null
+		if(b==null) return false;
+		if(this.TypeIndex==b.TypeIndex)
+		{
+			if(b.TypeIndex<3) return true;
+			/*if this is a son of b ,return true*/
+			if(this.TypeName.equals(b.TypeName)) return true;
+			ClassTable _class=types.getClass(this.TypeName);
+			if(_class==null) return false;
+			return(_class.isSon(b.TypeName));
+		}
+		return false;
+	}
+}
